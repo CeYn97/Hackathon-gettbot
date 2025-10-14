@@ -1,0 +1,680 @@
+{
+  "languages": {
+    "short": {
+      "en": "EN",
+      "ru": "RU"
+    },
+    "full": {
+      "en": "English",
+      "ru": "Russian"
+    }
+  },
+  "header": {
+    "languageSwitcher": "Language selection",
+    "login": "Sign in",
+    "signup": "Sign up"
+  },
+  "navigation": {
+    "about": "About",
+    "marketplace": "Marketplace",
+    "tariffs": "Plans",
+    "faq": "FAQ",
+    "referral": "Referral program"
+  },
+  "hero": {
+    "title": "Marketplace of <highlight>smart bots</highlight><break/>for crypto trading",
+    "subtitle": "Trade with minimal effort thanks to ready-made strategies and an intuitive interface.",
+    "features": {
+      "noSetup": "No setup required",
+      "adaptiveStrategies": "Adaptive strategies",
+      "fullAutomation": "Full automation",
+      "security": "Security and protection"
+    },
+    "cta": "Try for free",
+    "note": "*2 bots free for 6 months!"
+  },
+  "common": {
+    "badges": {
+      "soon": "soon"
+    },
+    "buttons": {
+      "tryForFree": "Try for free",
+      "select": "Select"
+    }
+  },
+  "advantages": {
+    "defaultTitle": "Why GettBot stands out",
+    "actions": {
+      "startEarning": "Start earning",
+      "referralSystem": "Referral system"
+    },
+    "main": {
+      "primary": {
+        "title": "Adaptive strategies",
+        "text": "No need to reconfigure bots every time the market moves. Launch them once and they will keep working for you."
+      },
+      "secondary": {
+        "security": {
+          "title": "Asset safety and protection",
+          "text": "Withdrawal-free API keys, data encryption, and high security standards keep our users’ assets safe."
+        },
+        "ease": {
+          "title": "Easy to use",
+          "text": "GettBot is designed for both newcomers and experienced traders."
+        }
+      }
+    },
+    "referral": {
+      "primary": {
+        "title": "High rewards",
+        "text": "Earn 30% from every subscription purchased by your referrals."
+      },
+      "secondary": {
+        "simplicity": {
+          "title": "Simple management",
+          "text": "A convenient dashboard lets you manage referrals and track earnings."
+        },
+        "transparency": {
+          "title": "Full transparency",
+          "text": "Real-time statistics show referral statuses and every purchase they make."
+        }
+      }
+    },
+    "dashboard": {
+      "primary": {
+        "title": "Referral analytics",
+        "text": "◦ Number of invited users with an active subscription\n◦ Your total earnings\n◦ Balance available for withdrawal\n◦ Payout history"
+      },
+      "secondary": {
+        "list": {
+          "title": "Referral list",
+          "text": "View every user who registered via your link together with their purchase history."
+        },
+        "link": {
+          "title": "Referral link",
+          "text": "Copy and share your personal link in a single click."
+        }
+      }
+    }
+  },
+  "exchanges": {
+    "title": "Quick exchange connection"
+  },
+  "smartBots": {
+    "title": "Launch <highlight>smart bots</highlight><break/>and let them work for you",
+    "items": {
+      "automaticTrading": {
+        "title": "Automated trading",
+        "content": "Smart bots trade 24/7. Deposit funds and watch the profit grow."
+      },
+      "advancedStrategies": {
+        "title": "Advanced strategies",
+        "content": "We rely on state-of-the-art algorithms to ensure maximum efficiency."
+      },
+      "transparency": {
+        "title": "Transparent reporting",
+        "content": "Track detailed statistics for every action and result in real time."
+      },
+      "security": {
+        "title": "Enhanced security",
+        "content": "Multi-layer protection keeps your funds safe using cutting-edge encryption."
+      },
+      "exchanges": {
+        "title": "All exchanges in one place",
+        "content": "Integrations with leading crypto exchanges let you diversify strategies."
+      },
+      "stats": {
+        "title": "Trading history archive",
+        "content": "Full trade history is stored for future analysis and optimisation."
+      }
+    }
+  },
+  "calculator": {
+    "title": "Earn from your referrals’ subscriptions!",
+    "subtitle": "Receive 30% of every subscription purchased by your referral. Rewards are accrued every month.",
+    "friendsLabel": "Invited friends",
+    "disclaimer": "*based on average partner results",
+    "cta": "Start earning"
+  },
+  "quickStart": {
+    "defaultTitle": "Quick start in 4 steps",
+    "steps": {
+      "step1": {
+        "step": "Step 1",
+        "title": "Register and choose a subscription"
+      },
+      "step2": {
+        "step": "Step 2",
+        "title": "Pick the set that suits you"
+      },
+      "step3": {
+        "step": "Step 3",
+        "title": "Connect your exchange account"
+      },
+      "step4": {
+        "step": "Step 4",
+        "title": "Define your trading deposit"
+      }
+    }
+  },
+  "referral": {
+    "promo": {
+      "heading": "GettBot referral program",
+      "subheading": "Welcome to the referral campaign",
+      "description": "Invite friends and earn generous rewards on every subscription your referrals purchase. The process is so simple that anyone can start."
+    },
+    "faqBlock": {
+      "heading": "How does the referral program work?",
+      "description": "In your account, open the “Referral program” section to find your personal link. Share it via messengers, social media, or email and every user who registers through it becomes your referral."
+    },
+    "advantages": {
+      "programTitle": "Referral program benefits",
+      "dashboardTitle": "What’s inside your dashboard?"
+    },
+    "quickStart": {
+      "emptyTitle": "",
+      "steps": {
+        "step1": {
+          "step": "Step 1",
+          "title": "Sign up and get your personal referral link"
+        },
+        "step2": {
+          "step": "Step 2",
+          "title": "Share the link with friends"
+        },
+        "step3": {
+          "step": "Step 3",
+          "title": "Once they buy a subscription, your reward arrives"
+        }
+      }
+    },
+    "withdrawal": {
+      "title": "How to withdraw rewards?",
+      "steps": {
+        "step1": {
+          "step": "Step 1",
+          "title": "Reach the minimum balance of 25 USDT."
+        },
+        "step2": {
+          "step": "Step 2",
+          "title": "Open “Referral program” and click “Request withdrawal”."
+        },
+        "step3": {
+          "step": "Step 3",
+          "title": "Enter your wallet address."
+        },
+        "step4": {
+          "step": "Step 4",
+          "title": "Confirm the request and receive funds within 5 business days."
+        }
+      }
+    }
+  },
+  "marketplace": {
+    "header": {
+      "title": "Marketplace",
+      "tabs": {
+        "spot": "Spot trading",
+        "futures": "Futures"
+      },
+      "segments": {
+        "hit": "HIT",
+        "all": "All"
+      }
+    },
+    "filters": {
+      "common": {
+        "dropdownAlt": "Open dropdown"
+      },
+      "exchange": {
+        "label": "Exchange",
+        "all": "All",
+        "binance": "Binance",
+        "okx": "OKX"
+      },
+      "currency": {
+        "label": "Currency",
+        "placeholder": "Choose a currency",
+        "all": "All"
+      },
+      "investment": {
+        "label": "Min. investment",
+        "all": "All",
+        "le99": "≤ 99 USDT",
+        "b100_499": "100 - 499 USDT",
+        "b500_999": "500 - 999 USDT",
+        "b1000_2999": "1000 - 2999 USDT"
+      },
+      "bots": {
+        "label": "Bots per set",
+        "all": "All",
+        "one": "1",
+        "two": "2",
+        "three": "3",
+        "four": "4",
+        "fivePlus": "5+"
+      },
+      "search": {
+        "label": "Search sets",
+        "placeholder": "Set ID",
+        "alt": "Search"
+      },
+      "sort": {
+        "ariaLabel": "Change sorting",
+        "title": "Sorting",
+        "iconAlt": "Sorting icon",
+        "indicatorAlt": "Selected sorting indicator",
+        "name": "Set name",
+        "cryptocurrencies": "Number of currencies",
+        "popularity": "Popularity",
+        "totalYield": "Total yield",
+        "drawdown": "Drawdown",
+        "runtime": "Uptime",
+        "minInvestment": "Min. investment"
+      }
+    },
+    "card": {
+      "ratingAlt": "Rating",
+      "botCount_one": "⋅ {{count}} bot",
+      "botCount_other": "⋅ {{count}} bots",
+      "profitability": "Yield",
+      "drawdown": "Drawdown",
+      "runtime": "Uptime",
+      "minInvestment": "Min. investment",
+      "minInvestmentValue": "From {{amount}} USDT",
+      "days_one": "{{count}} day",
+      "days_other": "{{count}} days",
+      "activate": "Activate"
+    },
+    "messages": {
+      "loading": "Loading…",
+      "loadError": "Failed to load data",
+      "empty": "No sets found"
+    },
+    "pagination": {
+      "prev": "Back",
+      "next": "Next"
+    }
+  },
+  "banner": {
+    "contact": {
+      "mailAlt": "Mail icon"
+    }
+  },
+  "about": {
+    "banner": {
+      "main": {
+        "alt": "About page banner background",
+        "heading": "Automate trading so you can focus on what matters",
+        "text": "since 2018"
+      },
+      "contact": {
+        "alt": "Contact banner background",
+        "email": "admin@gettbot.io",
+        "address": "Algorithmic Solutions Ltd, F2-2A, Oceanic House, Providence Estate, Mahe, Seychelles"
+      }
+    }
+  },
+  "principals": {
+    "heading": {
+      "prefix": "Principles of",
+      "highlight": "GettBot"
+    },
+    "cards": {
+      "reliability": {
+        "title": "Customer data security",
+        "text": "Protecting your data is our top priority.",
+        "alt": "Customer data security"
+      },
+      "evolution": {
+        "title": "Continuous product growth",
+        "text": "The GettBot team keeps improving the platform for your comfort.",
+        "alt": "Continuous product evolution"
+      },
+      "openness": {
+        "title": "Openness to users",
+        "text": "We collect feedback and are ready to help with any question.",
+        "alt": "Openness to users"
+      }
+    }
+  },
+  "team": {
+    "heading": "Our team",
+    "description": "For years we built smart bots for our own needs. By 2024 we perfected them and are ready to share them with the world.",
+    "members": {
+      "vladislav": {
+        "name": "Vladislav Ivanov",
+        "role": "Project CEO"
+      },
+      "victor": {
+        "name": "Victor Andreev",
+        "role": "Project CEO"
+      },
+      "alexander": {
+        "name": "Victor Andreev",
+        "role": "Project CEO"
+      }
+    }
+  },
+  "roadmap": {
+    "heading": "Product roadmap",
+    "description": "We are committed to constant growth and keep enhancing our smart bots so they bring you maximum profit.",
+    "2016": "Started manual\ntrading on Bitfinex",
+    "2017": "Capital\naccumulation",
+    "2018": "Team building and\nalgorithmic strategy",
+    "2019": "Testing various\ntrading strategies",
+    "2020": "Applying strategies with\nautomation platforms",
+    "2021": "Strategy upgrades\nbased on 2020 results",
+    "2022": "Developing proprietary software\nfor strategy automation",
+    "2023": "Testing trading and analytics\nsoftware",
+    "2024": "Public launch\nof the project",
+    "2025": "Feature expansion\nand infrastructure optimisation",
+    "2026": "Launch of\nGettBot PRO",
+    "2027": "Release of the project’s\nown token"
+  },
+  "videoGuide": {
+    "heading": "GettBot quick start",
+    "thumbnailAlt": "GettBot quick start video thumbnail",
+    "iframeTitle": "GettBot Quick Start Video",
+    "close": "Close video"
+  },
+  "faq": {
+    "defaultTitle": "Answers to\npopular questions",
+    "defaultSubtitle": "If you didn't find the answer you need, contact our support team.",
+    "defaultCta": "View all questions",
+    "main": {
+      "how-start": {
+        "question": "How to start using GettBot?",
+        "answer": "Register on the platform, connect your exchange API, choose a suitable smart bot set and start automated trading. The entire process will take no more than 10 minutes."
+      },
+      "trading-expertise": {
+        "question": "Do I need to be a trading expert to use GettBot?",
+        "answer": "No, you don't! Our smart bots are fully ready to work and don't require special knowledge. Just connect your exchange API and choose a suitable set - the bots will start trading automatically."
+      },
+      "funds-security": {
+        "question": "How safe are my funds when using GettBot?",
+        "answer": "Your funds remain on your exchange. GettBot uses only API keys for trading without withdrawal rights. We don't have access to your money and cannot withdraw it."
+      },
+      "first-results": {
+        "question": "How long does it take to see the first results?",
+        "answer": "First results can be seen within the first hours of bot operation. However, for stable profits, it's recommended to use bots for several weeks."
+      }
+    },
+    "promo": {
+      "heading": "Answers to popular questions",
+      "supportText": "If you didn’t find the answer you need, contact our support team.",
+      "supportButton": "Contact support"
+    },
+    "dictionary": {
+      "general": {
+        "nav": "General",
+        "title": "General questions",
+        "items": {
+          "what-is-gettbot": {
+            "question": "What is GettBot?",
+            "answer": "GettBot is a marketplace of smart bots for automated cryptocurrency trading. Our bots are ready to run, need no configuration, and start generating profit immediately."
+          },
+          "how-works-gettbot": {
+            "question": "How does GettBot work?",
+            "answer": "Connect your exchange API keys to the platform, choose a suitable set of smart bots, and automated 24/7 trading begins."
+          },
+          "who-suitable": {
+            "question": "Who should use GettBot?",
+            "answer": "The platform suits both beginners and experienced traders thanks to its simplicity and adaptive trading tools."
+          },
+          "trading-experience": {
+            "question": "Do I need trading experience to use GettBot?",
+            "answer": "No. Smart bots are built for users of any level. You can start even if you have never traded before."
+          },
+          "free-tariff": {
+            "question": "Is there a free plan?",
+            "answer": "Yes. New users receive two bots for six months with up to $1,000 trading balance. It’s a great way to test the platform. Activate the free plan right after sign-up."
+          }
+        }
+      },
+      "getting-started": {
+        "nav": "Getting started",
+        "title": "Getting started",
+        "items": {
+          "how-register": {
+            "question": "How do I register and start trading?",
+            "answer": "Fill out the quick registration form, connect your exchange account via API, choose a set on the marketplace, and the bots will start trading immediately."
+          },
+          "no-exchange-account": {
+            "question": "What if I don’t have an exchange account?",
+            "answer": "Create an account on a supported exchange such as Binance or OKX, generate API keys in your profile, and follow the step-by-step instructions inside GettBot. Need help? Email us at admin@gettbot.io."
+          },
+          "connect-exchange": {
+            "question": "How do I connect an exchange?",
+            "answer": "Follow the in-app instructions to connect your exchange API. It’s safe and does not allow withdrawals."
+          },
+          "available-strategies": {
+            "question": "What strategies are available?",
+            "answer": "The marketplace offers sets for any user goal and market situation."
+          },
+          "learning-materials": {
+            "question": "Do you provide educational materials?",
+            "answer": "Yes. You’ll get access to tutorials, videos, and tips inside your personal account."
+          }
+        }
+      },
+      "technical": {
+        "nav": "Technical",
+        "title": "Technical questions",
+        "items": {
+          "supported-exchanges": {
+            "question": "Which exchanges does GettBot support?",
+            "answer": "We currently support Binance and OKX, with Bybit, Gate.io, HTX, and Bitget coming soon."
+          },
+          "bot-stopped-working": {
+            "question": "What if a bot stops working?",
+            "answer": "Check your API connection. If the issue persists, contact technical support at admin@gettbot.io."
+          }
+        }
+      },
+      "security": {
+        "nav": "Security",
+        "title": "Security",
+        "items": {
+          "funds-security": {
+            "question": "How are my funds protected?",
+            "answer": "GettBot connects to your exchange with trade-only API keys. Funds stay on your account and remain protected by the exchange’s security systems."
+          },
+          "withdrawal-access": {
+            "question": "Do bots have withdrawal access?",
+            "answer": "No. The API keys connected to GettBot don’t allow withdrawals."
+          },
+          "registration-data": {
+            "question": "What data is required for registration?",
+            "answer": "Only your email address. All personal data is encrypted and never shared with third parties."
+          },
+          "security-measures": {
+            "question": "What security measures do you use?",
+            "answer": "We rely on encryption, access protection, and ongoing improvements to our security infrastructure."
+          }
+        }
+      },
+      "financial": {
+        "nav": "Financial",
+        "title": "Financial questions",
+        "items": {
+          "tariff-plans": {
+            "question": "What pricing plans are available?",
+            "answer": "GettBot offers plans tailored to different bot quantities and user experience. Custom plans are also available—contact us at admin@gettbot.io for details."
+          },
+          "profit-accrual": {
+            "question": "When is profit credited?",
+            "answer": "Profit is credited automatically after each successful deal. Real-time statistics are available in your account."
+          },
+          "referral-withdrawal": {
+            "question": "How do I withdraw referral rewards?",
+            "answer": "Open the “Referral program” section, click “Request withdrawal”, and specify the amount. Withdrawals are available once the balance exceeds 25 USDT."
+          },
+          "withdrawal-methods": {
+            "question": "Which withdrawal methods are supported?",
+            "answer": "At the moment, we support withdrawals via Tron Wallet."
+          }
+        }
+      },
+      "referral": {
+        "nav": "Referral program",
+        "title": "Referral system",
+        "items": {
+          "what-is-referral": {
+            "question": "What is the referral system?",
+            "answer": "The referral system rewards you for bringing new users via your unique link."
+          },
+          "get-referral-link": {
+            "question": "Where do I get my referral link?",
+            "answer": "Go to the “Referral program” section in your dashboard to copy your personal link."
+          },
+          "referral-rewards": {
+            "question": "How are referral rewards accrued?",
+            "answer": "You receive 30% of every subscription purchased by your referrals. For yearly or semi-annual plans, payments are made monthly."
+          },
+          "referral-withdrawal-timing": {
+            "question": "When can I withdraw referral rewards?",
+            "answer": "Withdrawals are available once your reward balance reaches 25 USDT. The “Request withdrawal” button will become active."
+          }
+        }
+      }
+    },
+    "referral": {
+      "items": {
+        "referral-1": {
+          "question": "Why should I join the referral program?",
+          "answer": "It’s a safe and convenient way to increase your income without extra effort."
+        },
+        "referral-2": {
+          "question": "How do I get my referral link?",
+          "answer": "After registration, open the “Referral system” section to copy your unique link and share it with friends."
+        },
+        "referral-3": {
+          "question": "How much do I earn per referral?",
+          "answer": "You receive 30% of every subscription your referral purchases. Rewards are paid monthly for annual and semi-annual plans."
+        },
+        "referral-4": {
+          "question": "When can I withdraw rewards?",
+          "answer": "You can request a withdrawal once your balance reaches 25 USDT. The “Request withdrawal” button will become active."
+        },
+        "referral-5": {
+          "question": "What if I don’t attract new referrals in the second year?",
+          "answer": "If you don’t meet the requirement of new referrals (10% of current active ones), you keep earning from the previously active users only."
+        }
+      }
+    }
+  },
+  "footer": {
+    "logoAlt": "GettBot logo",
+    "telegramAlt": "Telegram",
+    "socialAlt": "Social network",
+    "mailAlt": "Mail icon",
+    "email": "admin@gettbot.io",
+    "address": {
+      "line1": "Algorithmic Solutions Ltd, F2-2A, Oceanic",
+      "line2": "House, Providence Estate, Mahe, Seychelles"
+    },
+    "sloganAlt": "Trade smarter, not harder",
+    "links": {
+      "cookies": "COOKIES NOTICE",
+      "privacy": "PRIVACY POLICY",
+      "terms": "TERMS OF USE OF THE SERVICE"
+    }
+  },
+  "termsModal": {
+    "title": "TERMS OF USE OF THE SERVICE",
+    "sectionHeading": "GENERAL TERMS AND ACCEPTANCE OF THIS AGREEMENT",
+    "paragraph1": "THIS AGREEMENT GOVERNS YOUR RELATIONSHIP WITH ALGORITHMIC SOLUTIONS LTD, A COMPANY REGISTERED UNDER THE LAWS OF SEYCHELLES WITH ITS REGISTERED OFFICE AT F2-2A, OCEANIC HOUSE, PROVIDENCE ESTATE, MAHÉ, SEYCHELLES (THE “COMPANY”) AND YOUR USE OF THE COMPANY’S SERVICES (AS DEFINED BELOW) AVAILABLE AT HTTPS://GETTBOT.IO (THE “SERVICE”). YOU MAY USE THIS SERVICE ONLY IF YOU ACCEPT ALL TERMS AND CONDITIONS SET OUT HEREIN. PLEASE READ THESE TERMS CAREFULLY BEFORE USING THE SERVICE. BY USING IT, YOU ACCEPT THESE TERMS. IF YOU DO NOT ACCEPT THESE TERMS (“TERMS OF USE”), DO NOT USE THIS SERVICE.",
+    "paragraph2": "The Company provides the User with access to the Service, including all information, graphics, documents, texts, products, and every other element of the Service, as well as all products and services offered on or through it (“Services”). You may use them under the terms set out in this document and any additional terms available on the Service, including any part-specific conditions that supplement this User Agreement. By ticking “I agree to the Terms of Use” you accept this Agreement and all terms referenced in it. If you do not agree, you must not use the Service. If you disagree with additional conditions for specific Services, you must not use those Services or related content.",
+    "paragraph3": "Communication between the Company and the User regarding the Service is handled via email to admin@gettbot.io or through other channels specified by the Company.",
+    "lastUpdated": "Last updated: 31 July 2025"
+  },
+  "modal": {
+    "lastUpdatedDefault": "Last updated: 31 July 2025"
+  },
+  "tariffs": {
+    "heading": "Plans",
+    "giftBadgeAlt": "2 BOTS AS A GIFT",
+    "tabs": {
+      "1month": "1 month",
+      "6months": "6 months",
+      "12months": "12 months"
+    },
+    "badges": {
+      "discount": "Discount",
+      "discountGift": "Discount + Gift"
+    },
+    "planTypes": {
+      "start": "Start",
+      "base": "Base",
+      "advanced": "Advanced",
+      "pro": "Pro"
+    },
+    "plans": {
+      "start": {
+        "name": "2 bots",
+        "prices": {
+          "1month": {
+            "condition": "per month"
+          },
+          "6months": {
+            "condition": "per month, billed for 6 months",
+            "economy": "Save $12 over 6 months"
+          },
+          "12months": {
+            "condition": "per month, billed annually",
+            "economy": "Save $24 per year"
+          }
+        }
+      },
+      "base": {
+        "name": "5 bots",
+        "prices": {
+          "1month": {
+            "condition": "per month"
+          },
+          "6months": {
+            "condition": "per month, billed for 6 months",
+            "economy": "Save $48 over 6 months"
+          },
+          "12months": {
+            "condition": "per month, billed annually",
+            "economy": "Save $72 per year"
+          }
+        }
+      },
+      "advanced": {
+        "name": "15 bots",
+        "prices": {
+          "1month": {
+            "condition": "per month"
+          },
+          "6months": {
+            "condition": "per month, billed for 6 months",
+            "economy": "Save $132 over 6 months"
+          },
+          "12months": {
+            "condition": "per month, billed annually",
+            "economy": "Save $216 per year"
+          }
+        }
+      },
+      "pro": {
+        "name": "30 bots",
+        "prices": {
+          "1month": {
+            "condition": "per month"
+          },
+          "6months": {
+            "condition": "per month, billed for 6 months",
+            "economy": "Save $252 over 6 months"
+          },
+          "12months": {
+            "condition": "per month, billed annually",
+            "economy": "Save $432 per year"
+          }
+        }
+      }
+    }
+  }
+}
