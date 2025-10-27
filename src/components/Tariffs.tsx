@@ -86,15 +86,15 @@ export default function Tariffs() {
                     : "bg-[#FFFFFF] hover:transform hover:scale-[1.01]"
                 }`}
               >
-                <div className="flex justify-between items-center w-full gap-[84px]">
-                  <h3 className={`text-[28px] font-[600] leading-[1.14] text-left whitespace-nowrap transition-colors duration-300 ${
+                <div className="flex justify-between items-center w-full gap-2">
+                  <h3 className={`text-[28px] font-[600] leading-[1.14] text-left whitespace-nowrap transition-colors duration-300 flex-1 ${
                     isSelected ? "text-[#FFFFFF]" : "text-[#0C0B16]"
                   }`}>
                     {t(plan.name)}
                   </h3>
                   
-                  <div className="flex justify-center items-center gap-2 px-4 py-2 bg-[#F4F4F4] rounded-[999px] transition-all duration-300">
-                    <span className="text-[#0C0B16] text-[14px] font-[500] leading-[1.29] text-center">
+                  <div className="flex justify-center items-center gap-2 px-4 py-2 bg-[#F4F4F4] rounded-[999px] transition-all duration-300 flex-shrink-0">
+                    <span className="text-[#0C0B16] text-[14px] font-[500] leading-[1.29] text-center whitespace-nowrap">
                       {t(`tariffs.planTypes.${plan.planType.toLowerCase()}`)}
                     </span>
                   </div>
@@ -135,7 +135,7 @@ export default function Tariffs() {
                       <>
                         <div className="w-4 h-4 transition-all duration-300">
                           <Image
-                            src="/images/icon-sale.svg"
+                            src={isSelected ? "/images/icon-white.svg" : "/images/icon-sale.svg"}
                             alt="Sale icon"
                             width={16}
                             height={16}
@@ -282,7 +282,7 @@ export default function Tariffs() {
                       <div className="flex items-center gap-2">
                         <div className="w-4 h-4 transition-all duration-300">
                           <Image
-                            src="/images/icon-sale.svg"
+                            src={isSelected ? "/images/icon-white.svg" : "/images/icon-sale.svg"}
                             alt="Sale icon"
                             width={16}
                             height={16}
