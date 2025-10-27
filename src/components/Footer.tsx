@@ -100,19 +100,19 @@ export default function Footer() {
           <div className="flex justify-between items-center w-[1272px]">
             <a
               href="/cookies"
-              className="text-[#0C0B16] text-[16px] font-[500] leading-[1.25] text-left hover:underline hover:underline-offset-2 transition-all duration-200"
+              className="text-[#0C0B16] text-[16px] font-[500] leading-[1.25] text-left hover:underline hover:underline-offset-4 transition-all duration-200"
             >
               {t("footer.links.cookies")}
             </a>
             <a
               href="/privacy"
-              className="text-[#0C0B16] text-[16px] font-[500] leading-[1.25] tracking-[-0.02em] text-center hover:underline hover:underline-offset-2 transition-all duration-200"
+              className="text-[#0C0B16] text-[16px] font-[500] leading-[1.25] tracking-[-0.02em] text-center hover:underline hover:underline-offset-4 transition-all duration-200"
             >
               {t("footer.links.privacy")}
             </a>
             <button
               onClick={handleTermsClick}
-              className="text-[#0C0B16] text-[16px] font-[500] leading-[1.25] tracking-[-0.02em] text-right hover:underline hover:underline-offset-2 transition-all duration-200 cursor-pointer"
+              className="text-[#0C0B16] text-[16px] font-[500] leading-[1.25] tracking-[-0.02em] text-right hover:underline hover:underline-offset-4 transition-all duration-200 cursor-pointer"
             >
               {t("footer.links.terms")}
             </button>
@@ -199,19 +199,19 @@ export default function Footer() {
           <div className="flex justify-center items-center flex-wrap gap-3">
             <a
               href="/cookies"
-              className="text-[#0C0B16] text-[12px] font-[500] leading-[1.17] text-left hover:underline hover:underline-offset-2 transition-all duration-200"
+              className="text-[#0C0B16] text-[12px] font-[500] leading-[1.17] text-left hover:underline hover:underline-offset-4 transition-all duration-200"
             >
               {t("footer.links.cookies")}
             </a>
             <a
               href="/privacy"
-              className="text-[#0C0B16] text-[12px] font-[500] leading-[1.17] text-left hover:underline hover:underline-offset-2 transition-all duration-200"
+              className="text-[#0C0B16] text-[12px] font-[500] leading-[1.17] text-left hover:underline hover:underline-offset-4 transition-all duration-200"
             >
               {t("footer.links.privacy")}
             </a>
             <button
               onClick={handleTermsClick}
-              className="text-[#0C0B16] text-[12px] font-[500] leading-[1.17] text-left hover:underline hover:underline-offset-2 transition-all duration-200 cursor-pointer"
+              className="text-[#0C0B16] text-[12px] font-[500] leading-[1.17] text-left hover:underline hover:underline-offset-4 transition-all duration-200 cursor-pointer"
             >
               {t("footer.links.terms")}
             </button>

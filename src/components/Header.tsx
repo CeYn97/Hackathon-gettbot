@@ -47,7 +47,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="hidden md:flex justify-between items-center w-full gap-[132px] px-[120px] py-3 pb-[18px] bg-[#F9F9F9] border-b border-[#DFDFDF] border-[0.5px]">
+      <header className="hidden md:flex relative items-center w-full px-[120px] py-3 pb-[18px] bg-[#F9F9F9] border-b border-[#DFDFDF] border-[0.5px]">
         <Link href="/" className="flex flex-col gap-[10px] flex-shrink-0">
           <Image
             src="/images/gettbot-logo.svg"
@@ -59,23 +59,21 @@ export default function Header() {
           />
         </Link>
 
+        <div className="absolute left-1/2 transform -translate-x-1/2">
           <Navigation />
+        </div>
 
-        <div className="flex justify-end items-center gap-8 flex-shrink-0">
+        <div className="flex justify-end items-center gap-8 flex-shrink-0 ml-auto">
         <div className="relative" ref={dropdownRef}>
           <button 
             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            className="flex justify-center items-center gap-2 px-3 py-[10px] rounded-full shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)] hover:bg-[#F4F4F4] transition-all duration-200"
+            className="flex justify-center items-center gap-2  hover:bg-[#F4F4F4] transition-all duration-200"
             aria-label={t("header.languageSwitcher")}
           >
             <span className="text-[#0C0B16] text-[14px] font-[400] leading-[1.14] text-center">
               {t(activeLanguage.labelKey)}
             </span>
-            <div className={`w-3 h-3 transition-transform duration-200 ${isDropdownOpen ? 'rotate-180' : 'rotate-0'}`}>
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M3 4.5L6 7.5L9 4.5" stroke="#0C0B16" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
+            
           </button>
 
           <div className={`absolute top-full right-0 mt-2 w-32 bg-[#FFFFFF] border border-[#DFDFDF] border-[0.5px] rounded-[12px] shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)] overflow-hidden transition-all duration-200 z-15 ${
