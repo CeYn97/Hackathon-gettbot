@@ -59,7 +59,9 @@ export default function Home() {
         />
         <Exchanges />
         <SmartBots />
-        <Tariffs />
+        <div id="tariffs">
+          <Tariffs />
+        </div>
         <QuickStart />
         <VideoGuideBlock />
         <FAQ 

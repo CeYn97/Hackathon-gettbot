@@ -256,7 +256,7 @@ export default function Header() {
                 {t("navigation.marketplace")}
               </Link>
               <Link
-                href="/tariffs"
+                href="/#tariffs"
                 className="text-[#0C0B16] text-[16px] font-[500] leading-[1.25] text-left"
                 onClick={handleMobileMenuToggle}
               >
