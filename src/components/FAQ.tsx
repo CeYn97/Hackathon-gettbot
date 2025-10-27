@@ -70,7 +70,7 @@ export default function FAQ({
 
             <button
               onClick={onButtonClick}
-              className="flex justify-center items-center gap-1 w-[240px] py-[10px] bg-[#3FC7C8] rounded-[999px] hover:bg-[#36B3B4] transition-colors duration-200"
+              className="flex justify-center items-center gap-1 w-[240px] py-[10px] bg-[#3FC7C8] rounded-[999px] hover:bg-[#161616] transition-colors duration-200"
             >
               <span className="text-[#FFFFFF] text-[16px] font-[400] leading-[1.25] text-center">
                 {actionLabel}
@@ -203,7 +203,7 @@ export default function FAQ({
 
             <button
               onClick={onButtonClick}
-              className="flex justify-center items-center gap-1 w-fit px-5 py-2 bg-[#3FC7C8] rounded-full hover:bg-[#36B3B4] transition-colors duration-200"
+              className="flex justify-center items-center gap-1 w-fit px-5 py-2 bg-[#3FC7C8] rounded-full hover:bg-[#161616] transition-colors duration-200"
             >
               <span className="text-[#FFFFFF] text-[12px] font-[400] leading-[1.17] text-center">
                 {actionLabel}

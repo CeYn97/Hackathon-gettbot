@@ -144,9 +144,9 @@ export default function Calculator() {
                 href="https://app.gettbot.io/auth"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex justify-center items-center gap-1 p-1 bg-[#F4F4F4] border border-[#DFDFDF] rounded-[999px] hover:bg-[#E9E9E9] transition-colors w-full"
+                className="group flex justify-center items-center gap-1 p-1 bg-[#F4F4F4] border border-[#DFDFDF] rounded-[999px] hover:bg-[#161616] hover:border-[#161616] transition-colors w-full"
               >
-                <div className="flex justify-center items-center gap-1 px-4 py-[10px] bg-[#3FC7C8] rounded-[999px] shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)] hover:bg-[#36B3B4] transition-colors duration-200 w-full">
+                <div className="flex justify-center items-center gap-1 px-4 py-[10px] bg-[#3FC7C8] rounded-[999px] shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)] group-hover:bg-[#161616] transition-colors duration-200 w-full">
                   <span className="text-[#F9F9F9] text-[16px] font-[500] leading-[1.25] text-center">
                     {t("calculator.cta")}
                   </span>
@@ -268,9 +268,9 @@ export default function Calculator() {
               href="https://app.gettbot.io/auth"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex justify-center items-center gap-1 p-1 bg-[#F4F4F4] border border-[#DFDFDF] rounded-[999px] hover:bg-[#E9E9E9] transition-colors w-full"
+              className="group flex justify-center items-center gap-1 p-1 bg-[#F4F4F4] border border-[#DFDFDF] rounded-[999px] hover:bg-[#161616] hover:border-[#161616] transition-colors w-full"
             >
-              <div className="flex justify-center items-center gap-1 px-4 py-[10px] bg-[#3FC7C8] rounded-[999px] shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)] hover:bg-[#36B3B4] transition-colors duration-200 w-full">
+              <div className="flex justify-center items-center gap-1 px-4 py-[10px] bg-[#3FC7C8] rounded-[999px] shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)] group-hover:bg-[#161616] transition-colors duration-200 w-full">
                 <span className="text-[#F9F9F9] text-[16px] font-[500] leading-[1.25] text-center">
                   {t("calculator.cta")}
                 </span>

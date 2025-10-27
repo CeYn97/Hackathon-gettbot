@@ -127,7 +127,7 @@ export default function Header() {
               href="https://app.gettbot.io/auth"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex justify-center items-center px-3 py-[10px] bg-[#3FC7C8] rounded-full shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)] hover:bg-[#36B3B4] transition-colors"
+              className="flex justify-center items-center px-3 py-[10px] bg-[#3FC7C8] rounded-full shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)] hover:bg-[#161616] transition-colors"
             >
               <span className="text-[#FFFFFF] text-[14px] font-[400] leading-[1.14] text-center">
                 {t("header.signup")}

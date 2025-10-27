@@ -86,9 +86,9 @@ export default function Advantages({
                 href="https://app.gettbot.io/auth"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex justify-start items-center p-1 bg-[#F4F4F4] border border-[#DFDFDF] border-[1px] rounded-full hover:bg-[#E9E9E9] transition-colors w-fit"
+                className="group flex justify-start items-center p-1 bg-[#F4F4F4] border border-[#DFDFDF] border-[1px] rounded-full hover:bg-[#161616] hover:border-[#161616] transition-colors w-fit"
               >
-                <div className="flex items-center gap-1 px-4 py-[10px] bg-[#3FC7C8] rounded-full shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)] hover:bg-[#36B3B4] transition-colors">
+                <div className="flex items-center gap-1 px-4 py-[10px] bg-[#3FC7C8] rounded-full shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)] group-hover:bg-[#161616] transition-colors">
                   <span className="text-[#F9F9F9] text-[16px] font-[500] leading-[1.25] text-center whitespace-nowrap">
                     {t(bigCard.buttonTextKey)}
                   </span>

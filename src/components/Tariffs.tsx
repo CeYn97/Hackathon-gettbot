@@ -157,7 +157,7 @@ export default function Tariffs() {
                     className={`flex justify-center items-center w-full py-[10px] px-4 rounded-[999px] transition-all duration-200 ${
                       isSelected
                         ? "bg-[#FFFFFF] text-[#0C0B16]"
-                        : "bg-[#3FC7C8] text-[#FFFFFF] hover:bg-[#36B3B4]"
+                        : "bg-[#3FC7C8] text-[#FFFFFF] hover:bg-[#161616]"
                     }`}
                   >
                     <span className="text-[16px] font-[400] leading-[1.25] text-center">
@@ -304,7 +304,7 @@ export default function Tariffs() {
                       className={`flex justify-center items-center w-full py-2.5 px-4 rounded-full transition-all duration-200 ${
                         isSelected
                           ? "bg-[#FFFFFF] text-[#0C0B16]"
-                          : "bg-[#3FC7C8] text-[#FFFFFF] hover:bg-[#36B3B4]"
+                          : "bg-[#3FC7C8] text-[#FFFFFF] hover:bg-[#161616]"
                       }`}
                     >
                       <span className="text-[16px] font-[400] leading-[1.25] text-center">
