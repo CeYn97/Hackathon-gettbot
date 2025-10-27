@@ -33,7 +33,7 @@ export default function Footer() {
             </div>
 
             <div className="flex gap-3">
-              <div className="w-12 h-12 border border-[#E2E2E2] rounded-lg flex items-center justify-center">
+              <div className="w-12 h-12 border border-[#E2E2E2] rounded-lg flex items-center justify-center hover:opacity-50 transition-opacity duration-200">
                 <Image
                   src="/images/tg.svg"
                   alt={t("footer.telegramAlt")}
@@ -42,7 +42,7 @@ export default function Footer() {
                   className=""
                 />
               </div>
-              <div className="w-12 h-12 border border-[#E2E2E2] rounded-lg flex items-center justify-center">
+              <div className="w-12 h-12 border border-[#E2E2E2] rounded-lg flex items-center justify-center hover:opacity-50 transition-opacity duration-200">
                 <Image
                   src="/images/Subtract.svg"
                   alt={t("footer.socialAlt")}
@@ -56,7 +56,7 @@ export default function Footer() {
 
           <div className="flex flex-col items-end gap-8">
             <div className="flex items-center w-full gap-3">
-              <div className="w-12 h-12 flex items-center justify-center">
+              <div className="w-12 h-12 flex items-center justify-center hover:opacity-50 transition-opacity duration-200">
                 <Image
                   src="/images/mail.svg"
                   alt={t("footer.mailAlt")}
@@ -139,7 +139,7 @@ export default function Footer() {
             </div>
 
             <div className="flex gap-2">
-              <div className="w-10 h-10 border border-[#E2E2E2] border-[1px] rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 border border-[#E2E2E2] border-[1px] rounded-lg flex items-center justify-center hover:opacity-50 transition-opacity duration-200">
                 <Image
                   src="/images/tg.svg"
                   alt={t("footer.telegramAlt")}
@@ -148,7 +148,7 @@ export default function Footer() {
                   className=""
                 />
               </div>
-              <div className="w-10 h-10 border border-[#E2E2E2] border-[1px] rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 border border-[#E2E2E2] border-[1px] rounded-lg flex items-center justify-center hover:opacity-50 transition-opacity duration-200">
                 <Image
                   src="/images/Subtract.svg"
                   alt={t("footer.socialAlt")}
@@ -162,7 +162,7 @@ export default function Footer() {
 
           <div className="flex flex-col items-center gap-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 flex items-center justify-center">
+              <div className="w-8 h-8 flex items-center justify-center hover:opacity-50 transition-opacity duration-200">
                 <Image
                   src="/images/mail.svg"
                   alt={t("footer.mailAlt")}
