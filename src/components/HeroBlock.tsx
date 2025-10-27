@@ -34,11 +34,13 @@ export default function HeroBlock() {
                 <div key={featureKey} className="flex items-center gap-3">
                   <div className="w-6 h-6 bg-[#3FC7C8] rounded-[11.43px] flex items-center justify-center">
                     <Image
-                      src={`/images/check-icon${index === 0 ? "" : `-${index + 1}`}.svg`}
+                      src={`/images/check-icon${
+                        index === 0 ? "" : `-${index + 1}`
+                      }.svg`}
                       alt="Check"
                       width={12}
                       height={12}
-                      className="w-3 h-3"
+                      className="w-12 h-12"
                     />
                   </div>
                   <span className="text-[#0C0B16] text-[24px] font-[600] leading-[1.67] text-left">
@@ -49,7 +51,7 @@ export default function HeroBlock() {
             </div>
 
             <div className="flex flex-col gap-2 ">
-              <a 
+              <a
                 href="https://app.gettbot.io/auth"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -120,11 +122,13 @@ export default function HeroBlock() {
                 <div key={featureKey} className="flex items-center gap-3">
                   <div className="w-5 h-5 bg-[#3FC7C8] rounded-[9.52px] flex items-center justify-center">
                     <Image
-                      src={`/images/check-icon${index === 0 ? "" : `-${index + 1}`}.svg`}
+                      src={`/images/check-icon${
+                        index === 0 ? "" : `-${index + 1}`
+                      }.svg`}
                       alt="Check"
                       width={10}
                       height={10}
-                      className="w-2.5 h-2.5"
+                      className="w-10 h-10"
                     />
                   </div>
                   <span className="text-[#0C0B16] text-[14px] font-[600] leading-[1.71] text-left">
@@ -135,7 +139,7 @@ export default function HeroBlock() {
             </div>
 
             <div className="flex flex-col gap-2">
-              <a 
+              <a
                 href="https://app.gettbot.io/auth"
                 target="_blank"
                 rel="noopener noreferrer"
