@@ -219,11 +219,11 @@ export default function Tariffs() {
               return (
                 <div
                   key={plan.id}
-                  className={`flex flex-col gap-6 p-5 rounded-[16px] shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)] transition-all duration-300 ease-in-out w-full ${
+                  className={`flex flex-col p-5 rounded-[16px] shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)] transition-all duration-300 ease-in-out w-full ${
                     isAdvanced 
                       ? "bg-[#3FC7C8]" 
                       : "bg-[#FFFFFF]"
-                  }`}
+                  } ${state.selectedPeriod === '1month' ? 'gap-12' : 'gap-6'}`}
                 >
                   <div className="flex justify-between items-start w-full gap-6">
                     <div className="flex flex-col gap-1 w-[90px]">
