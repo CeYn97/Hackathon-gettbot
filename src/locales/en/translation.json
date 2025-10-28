@@ -609,6 +609,10 @@
       "discount": "%",
       "discountGift": "%+Gift"
     },
+    "badgesDesktop": {
+      "discount": "Discount",
+      "discountGift": "Discount+Gift"
+    },
     "planTypes": {
       "start": "Start",
       "base": "Base",

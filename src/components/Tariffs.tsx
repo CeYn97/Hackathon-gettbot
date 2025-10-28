@@ -61,7 +61,7 @@ export default function Tariffs() {
               {tab.badge && (
                 <div className="flex justify-center items-center gap-1 px-1.5 py-0.5 bg-[#D1F2F2] border border-[#3FC7C8] border-[0.5px] rounded-[6px]">
                   <span className="text-[#3FC7C8] text-[12px] font-[600] leading-[1.33] text-center">
-                    {t(tab.badge.text)}
+                    {t(`tariffs.badgesDesktop.${tab.badge.text.replace('tariffs.badges.', '')}`)}
                   </span>
                 </div>
               )}
