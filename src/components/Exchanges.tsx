@@ -118,8 +118,8 @@ export default function Exchanges() {
         </div>
       </section>
 
-      <section className="flex md:hidden flex-col w-full gap-4 px-5 py-6 pb-8 bg-[#F9F9F9]">
-        <h2 className="text-[#AAB0C0] text-[16px] font-[500] leading-[1.25] text-center">
+      <section className="flex md:hidden flex-col w-full gap-4 pl-5 pr-0 py-6 pb-8 bg-[#F9F9F9]">
+        <h2 className="text-[#AAB0C0] text-[16px] font-[500] leading-[1.25] text-left">
           {t("exchanges.title")}
         </h2>
 
