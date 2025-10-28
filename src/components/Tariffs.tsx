@@ -190,19 +190,19 @@ export default function Tariffs() {
               <button
                 key={tab.id}
                 onClick={() => handlePeriodChange(tab.id)}
-                className={`flex items-center gap-1 px-2 py-2 rounded-[4px] transition-all duration-200 flex-1 ${
+                className={`flex items-center justify-center gap-1 px-2 py-2 rounded-[4px] transition-all duration-200 flex-1 ${
                   state.selectedPeriod === tab.id
                     ? "bg-[#FFFFFF] shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)]"
                     : "bg-transparent hover:bg-[#E9E9E9]"
                 }`}
               >
-                <span className="text-[#0C0B16] text-[10px] font-[500] leading-[1.2] text-center">
-                  {t(tab.label)}
+                <span className="text-[#0C0B16] text-[10px] font-[500] leading-[1.2] text-center whitespace-nowrap">
+                  {t(`tariffs.tabsMobile.${tab.id}`)}
                 </span>
                 
                 {tab.badge && (
-                  <div className="flex justify-center items-center gap-1 px-1.5 py-0.5 bg-[#D1F2F2] border border-[#3FC7C8] border-[0.6px] rounded-[4px]">
-                    <span className="text-[#3FC7C8] text-[8px] font-[600] leading-[1.25] text-center">
+                  <div className="flex justify-center items-center gap-1 px-1.5 py-0.5 bg-[#D1F2F2] border border-[#3FC7C8] border-[0.6px] rounded-[4px] flex-shrink-0">
+                    <span className="text-[#3FC7C8] text-[8px] font-[600] leading-[1.25] text-center whitespace-nowrap">
                       {t(tab.badge.text)}
                     </span>
                   </div>

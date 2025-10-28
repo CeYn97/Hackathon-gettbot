@@ -604,9 +604,14 @@
       "6months": "6 месяцев",
       "12months": "12 месяцев"
     },
+    "tabsMobile": {
+      "1month": "1 мес.",
+      "6months": "6 мес.",
+      "12months": "12 мес."
+    },
     "badges": {
-      "discount": "Скидка",
-      "discountGift": "Скидка + Подарок"
+      "discount": "%",
+      "discountGift": "%+Подарок"
     },
     "planTypes": {
       "start": "Start",
