@@ -600,9 +600,14 @@
       "6months": "6 months",
       "12months": "12 months"
     },
+    "tabsMobile": {
+      "1month": "1 mon.",
+      "6months": "6 mon.",
+      "12months": "12 mon."
+    },
     "badges": {
-      "discount": "Discount",
-      "discountGift": "Discount + Gift"
+      "discount": "%",
+      "discountGift": "%+Gift"
     },
     "planTypes": {
       "start": "Start",
