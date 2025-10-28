@@ -34,6 +34,41 @@ export default function Header() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      const scrollY = window.scrollY;
+      
+      document.body.style.overflow = 'hidden';
+      document.body.style.position = 'fixed';
+      document.body.style.top = `-${scrollY}px`;
+      document.body.style.left = '0';
+      document.body.style.right = '0';
+      document.body.style.width = '100%';
+    } else {
+      const scrollY = document.body.style.top;
+      document.body.style.overflow = '';
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.left = '';
+      document.body.style.right = '';
+      document.body.style.width = '';
+      
+      if (scrollY) {
+        window.scrollTo(0, parseInt(scrollY.replace('-', ''), 10));
+      }
+    }
+
+    return () => {
+      document.body.style.overflow = '';
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.left = '';
+      document.body.style.right = '';
+      document.body.style.width = '';
+    };
+  }, [isMobileMenuOpen]);
+
   const normalizedLanguage = (i18n.resolvedLanguage || i18n.language || "ru")
     .split("-")[0]
     .toLowerCase();
@@ -152,39 +187,18 @@ export default function Header() {
         <div className="flex items-center gap-2 relative">
           <button
             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            className="flex justify-center items-center px-3 py-2  rounded-full shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)]"
+            className="flex justify-center items-center px-3 py-2"
           >
             <span className="text-[#0C0B16] text-[12px] font-[400] leading-[1.33] text-center">
               {t(activeLanguage.labelKey)}
             </span>
-            <div
-              className={`w-3 h-3 ml-2 transition-transform duration-200 ${
-                isDropdownOpen ? "rotate-180" : "rotate-0"
-              }`}
-            >
-              <svg
-                width="12"
-                height="12"
-                viewBox="0 0 12 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3 4.5L6 7.5L9 4.5"
-                  stroke="#0C0B16"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </div>
           </button>
 
           <a
             href="https://app.gettbot.io/auth"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex justify-center items-center px-3 py-2 rounded-full shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)]"
+            className="flex justify-center items-center px-3 py-2"
           >
             <span className="text-[#0C0B16] text-[12px] font-[400] leading-[1.33] text-center">
               {t("header.login")}
@@ -193,21 +207,24 @@ export default function Header() {
 
           <button
             onClick={handleMobileMenuToggle}
-            className="flex justify-center items-center px-5 py-2 bg-[#F4F4F4] border border-[#DFDFDF] border-[0.5px] rounded-full transition-all duration-200"
+            className="flex justify-center items-center px-3 py-1 bg-[#F4F4F4] border border-[#DFDFDF] border-[0.5px] rounded-full transition-all duration-200"
           >
             {isMobileMenuOpen ? (
               <Image
-                src="/images/x-icon.svg"
+                src="/images/x-icon.png"
                 alt="Close menu"
-                width={16}
-                height={16}
-                className="w-4 h-4"
+                width={24}
+                height={24}
+                className="w-6 h-6"
               />
             ) : (
-              <div className="w-4 h-4 flex flex-col justify-center items-center gap-1">
-                <div className="w-4 h-0 border-b border-[#0C0B16] border-[1.5px]"></div>
-                <div className="w-4 h-0 border-b border-[#0C0B16] border-[1.5px]"></div>
-              </div>
+              <Image
+                src="/images/line-icon.png"
+                alt="Open menu"
+                width={24}
+                height={24}
+                className="w-6 h-6"
+              />
             )}
           </button>
 
