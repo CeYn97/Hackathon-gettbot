@@ -21,11 +21,8 @@ export default function Tariffs() {
     }));
   };
 
-  const handlePlanSelect = (planId: string) => {
-    setState((prev) => ({
-      ...prev,
-      selectedPlan: prev.selectedPlan === planId ? null : planId,
-    }));
+  const handlePlanSelect = (_planId: string) => {
+    window.open('https://app.gettbot.io/auth/sign-in', '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -75,20 +72,20 @@ export default function Tariffs() {
         <div className="flex justify-stretch items-stretch w-full gap-5">
           {tariffPlans.map((plan) => {
             const currentPrice = plan.prices[state.selectedPeriod];
-            const isSelected = state.selectedPlan === plan.id;
+            const isAdvanced = plan.id === 'advanced';
             
             return (
               <div
                 key={plan.id}
                 className={`flex flex-col gap-6 p-5 rounded-[16px] shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)] transition-all duration-300 ease-in-out w-[303px] h-[288px] ${
-                  isSelected 
-                    ? "bg-[#3FC7C8] transform scale-[1.02]" 
-                    : "bg-[#FFFFFF] hover:transform hover:scale-[1.01]"
+                  isAdvanced 
+                    ? "bg-[#3FC7C8]" 
+                    : "bg-[#FFFFFF]"
                 }`}
               >
                 <div className="flex justify-between items-center w-full gap-2">
-                  <h3 className={`text-[28px] font-[600] leading-[1.14] text-left whitespace-nowrap transition-colors duration-300 flex-1 ${
-                    isSelected ? "text-[#FFFFFF]" : "text-[#0C0B16]"
+                  <h3 className={`text-[28px] font-[600] leading-[1.14] text-left whitespace-nowrap transition-colors duration-300 ${
+                    isAdvanced ? "text-[#FFFFFF]" : "text-[#0C0B16]"
                   }`}>
                     {t(plan.name)}
                   </h3>
@@ -103,7 +100,7 @@ export default function Tariffs() {
                 <div className="flex flex-col justify-center w-full gap-1">
                   <div className="flex w-full gap-2">
                     <span className={`text-[52px] font-[590] leading-[1.08] text-left transition-colors duration-300 ${
-                      isSelected ? "text-[#FFFFFF]" : "text-[#0C0B16]"
+                      isAdvanced ? "text-[#FFFFFF]" : "text-[#0C0B16]"
                     }`}>
                       ${currentPrice.current}
                     </span>
@@ -111,19 +108,19 @@ export default function Tariffs() {
                     {currentPrice.original && (
                       <div className="flex flex-col justify-center items-center h-6 relative">
                         <span className={`text-[24px] font-[590] leading-[1.17] text-left transition-colors duration-300 ${
-                          isSelected ? "text-[#A3E4E5]" : "text-[#AAB0C0]"
+                          isAdvanced ? "text-[#A3E4E5]" : "text-[#AAB0C0]"
                         }`}>
                           ${currentPrice.original}
                         </span>
                         <div className={`absolute top-1/2 left-0 w-full h-[1px] transform -translate-y-1/2 transition-colors duration-300 ${
-                          isSelected ? "bg-[#A3E4E5]" : "bg-[#AAB0C0]"
+                          isAdvanced ? "bg-[#A3E4E5]" : "bg-[#AAB0C0]"
                         }`} />
                       </div>
                     )}
                   </div>
                   
                   <span className={`text-[14px] font-[510] leading-[1.29] text-left transition-colors duration-300 ${
-                    isSelected ? "text-[#FFFFFF]" : "text-[#AAB0C0]"
+                    isAdvanced ? "text-[#FFFFFF]" : "text-[#AAB0C0]"
                   }`}>
                     {t(currentPrice.condition)}
                   </span>
@@ -135,7 +132,7 @@ export default function Tariffs() {
                       <>
                         <div className="w-4 h-4 transition-all duration-300">
                           <Image
-                            src={isSelected ? "/images/icon-white.svg" : "/images/icon-sale.svg"}
+                            src={isAdvanced ? "/images/icon-white.svg" : "/images/icon-sale.svg"}
                             alt="Sale icon"
                             width={16}
                             height={16}
@@ -144,7 +141,7 @@ export default function Tariffs() {
                         </div>
                         
                         <span className={`text-[12px] font-[510] leading-[1.33] text-left transition-colors duration-300 ${
-                          isSelected ? "text-[#FFFFFF]" : "text-[#0C0B16]"
+                          isAdvanced ? "text-[#FFFFFF]" : "text-[#0C0B16]"
                         }`}>
                           {t(currentPrice.economy)}
                         </span>
@@ -155,7 +152,7 @@ export default function Tariffs() {
                   <button
                     onClick={() => handlePlanSelect(plan.id)}
                     className={`flex justify-center items-center w-full py-[10px] px-4 rounded-[999px] transition-all duration-200 ${
-                      isSelected
+                      isAdvanced
                         ? "bg-[#FFFFFF] text-[#0C0B16]"
                         : "bg-[#3FC7C8] text-[#FFFFFF] hover:bg-[#161616]"
                     }`}
@@ -217,27 +214,27 @@ export default function Tariffs() {
           <div className="flex flex-col w-full gap-2">
             {tariffPlans.map((plan) => {
               const currentPrice = plan.prices[state.selectedPeriod];
-              const isSelected = state.selectedPlan === plan.id;
+              const isAdvanced = plan.id === 'advanced';
               
               return (
                 <div
                   key={plan.id}
                   className={`flex flex-col gap-6 p-5 rounded-[16px] shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)] transition-all duration-300 ease-in-out w-full ${
-                    isSelected 
-                      ? "bg-[#3FC7C8] transform scale-[1.02]" 
-                      : "bg-[#FFFFFF] hover:transform hover:scale-[1.01]"
+                    isAdvanced 
+                      ? "bg-[#3FC7C8]" 
+                      : "bg-[#FFFFFF]"
                   }`}
                 >
                   <div className="flex justify-between items-start w-full gap-6">
                     <div className="flex flex-col gap-1 w-[90px]">
-                      <span className={`text-[20px] font-[600] leading-[1.2] text-left transition-colors duration-300 ${
-                        isSelected ? "text-[#FFFFFF]" : "text-[#0C0B16]"
+                      <span className={`text-[20px] font-[600] leading-[1.2] text-left whitespace-nowrap transition-colors duration-300 ${
+                        isAdvanced ? "text-[#FFFFFF]" : "text-[#0C0B16]"
                       }`}>
                         {t(plan.name)}
                       </span>
                       
                       <div className={`flex justify-center items-center gap-2 px-3 py-1 rounded-full transition-all duration-300 ${
-                        isSelected ? "bg-[#F4F4F4]" : "bg-[#F4F4F4]"
+                        isAdvanced ? "bg-[#F4F4F4]" : "bg-[#F4F4F4]"
                       }`}>
                         <span className="text-[#0C0B16] text-[12px] font-[500] leading-[1.33] text-center">
                           {t(`tariffs.planTypes.${plan.planType.toLowerCase()}`)}
@@ -248,7 +245,7 @@ export default function Tariffs() {
                     <div className="flex flex-col justify-center gap-1 w-[174px]">
                       <div className="flex w-full gap-1">
                         <span className={`text-[28px] font-[590] leading-[1.14] text-left transition-colors duration-300 ${
-                          isSelected ? "text-[#FFFFFF]" : "text-[#0C0B16]"
+                          isAdvanced ? "text-[#FFFFFF]" : "text-[#0C0B16]"
                         }`}>
                           ${currentPrice.current}
                         </span>
@@ -256,19 +253,19 @@ export default function Tariffs() {
                         {currentPrice.original && (
                           <div className="flex flex-col justify-center items-center h-6 relative">
                             <span className={`text-[16px] font-[590] leading-[1.25] text-left transition-colors duration-300 ${
-                              isSelected ? "text-[#A3E4E5]" : "text-[#AAB0C0]"
+                              isAdvanced ? "text-[#A3E4E5]" : "text-[#AAB0C0]"
                             }`}>
                               ${currentPrice.original}
                             </span>
                             <div className={`absolute top-1/2 left-0 w-full h-[1px] transform -translate-y-1/2 transition-colors duration-300 ${
-                              isSelected ? "bg-[#A3E4E5]" : "bg-[#AAB0C0]"
+                              isAdvanced ? "bg-[#A3E4E5]" : "bg-[#AAB0C0]"
                             }`} />
                           </div>
                         )}
                       </div>
                       
                       <span className={`text-[12px] font-[510] leading-[1.33] text-left transition-colors duration-300 ${
-                        isSelected ? "text-[#FFFFFF]" : "text-[#AAB0C0]"
+                        isAdvanced ? "text-[#FFFFFF]" : "text-[#AAB0C0]"
                       }`}>
                         {t(currentPrice.condition)}
                       </span>
@@ -282,7 +279,7 @@ export default function Tariffs() {
                       <div className="flex items-center gap-2">
                         <div className="w-4 h-4 transition-all duration-300">
                           <Image
-                            src={isSelected ? "/images/icon-white.svg" : "/images/icon-sale.svg"}
+                            src={isAdvanced ? "/images/icon-white.svg" : "/images/icon-sale.svg"}
                             alt="Sale icon"
                             width={16}
                             height={16}
@@ -291,7 +288,7 @@ export default function Tariffs() {
                         </div>
                         
                         <span className={`text-[12px] font-[510] leading-[1.33] text-left transition-colors duration-300 ${
-                          isSelected ? "text-[#FFFFFF]" : "text-[#0C0B16]"
+                          isAdvanced ? "text-[#FFFFFF]" : "text-[#0C0B16]"
                         }`}>
                           {t(currentPrice.economy)}
                         </span>
@@ -302,7 +299,7 @@ export default function Tariffs() {
                     <button
                       onClick={() => handlePlanSelect(plan.id)}
                       className={`flex justify-center items-center w-full py-2.5 px-4 rounded-full transition-all duration-200 ${
-                        isSelected
+                        isAdvanced
                           ? "bg-[#FFFFFF] text-[#0C0B16]"
                           : "bg-[#3FC7C8] text-[#FFFFFF] hover:bg-[#161616]"
                       }`}
