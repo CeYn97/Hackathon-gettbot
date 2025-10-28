@@ -140,7 +140,7 @@ export default function Tariffs() {
                           />
                         </div>
                         
-                        <span className={`text-[12px] font-[510] leading-[1.33] text-left transition-colors duration-300 ${
+                        <span className={`text-[12px] md:text-[14px] font-[510] leading-[1.33] text-left transition-colors duration-300 ${
                           isAdvanced ? "text-[#FFFFFF]" : "text-[#0C0B16]"
                         }`}>
                           {t(currentPrice.economy)}
@@ -287,7 +287,7 @@ export default function Tariffs() {
                           />
                         </div>
                         
-                        <span className={`text-[12px] font-[510] leading-[1.33] text-left transition-colors duration-300 ${
+                        <span className={`text-[12px] md:text-[14px] font-[510] leading-[1.33] text-left transition-colors duration-300 ${
                           isAdvanced ? "text-[#FFFFFF]" : "text-[#0C0B16]"
                         }`}>
                           {t(currentPrice.economy)}
