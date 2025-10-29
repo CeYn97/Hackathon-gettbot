@@ -70,10 +70,10 @@ export default function RoadmapBlock() {
               </p>
             </div>
 
-            <div className="relative">
+            <div className="relative -mx-16">
               <div
                 ref={scrollContainerRef}
-                className="flex gap-3 overflow-x-auto scrollbar-hide"
+                className="flex gap-3 overflow-x-auto scrollbar-hide px-16"
                 style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
               >
                 {roadmapData.map((item, index) => (
@@ -107,9 +107,9 @@ export default function RoadmapBlock() {
         `}</style>
       </section>
 
-      <section className="flex md:hidden flex-col items-center w-full px-5 py-8 bg-[#F9F9F9]">
+      <section className="flex md:hidden flex-col items-center w-full py-8 bg-[#F9F9F9]">
         <div className="flex flex-col w-full gap-16 p-8 bg-[rgba(255,255,255,0.52)] backdrop-blur-[64px] rounded-[12px] shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)]">
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 px-5">
             <h2 className="text-[#0C0B16] text-[28px] font-[600] leading-[1.14] text-left">
               {t("roadmap.heading")}
             </h2>
@@ -119,7 +119,7 @@ export default function RoadmapBlock() {
             </p>
           </div>
 
-          <div className="flex gap-3 overflow-x-auto scrollbar-hide pb-2">
+          <div className="flex gap-3 overflow-x-auto scrollbar-hide pb-2 -mx-8 px-8">
             {roadmapData.map((item, index) => (
               <div
                 key={index}

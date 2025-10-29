@@ -95,12 +95,12 @@ export default function QuickStart({
         </div>
       </section>
 
-      <section className="flex md:hidden flex-col w-full gap-8 px-5 py-8 bg-[#F9F9F9]">
-        <h2 className="text-[#0C0B16] text-[28px] font-[600] leading-[1.14] text-left">
+      <section className="flex md:hidden flex-col w-full gap-8 py-8 bg-[#F9F9F9]">
+        <h2 className="text-[#0C0B16] text-[28px] font-[600] leading-[1.14] text-left px-5">
           {heading}
         </h2>
 
-        <div className="flex gap-4 overflow-x-auto scrollbar-hide pb-2">
+        <div className="flex gap-4 overflow-x-auto scrollbar-hide pb-2 pl-5 pr-5">
           {steps.map((step) => (
             <div
               key={step.id}
