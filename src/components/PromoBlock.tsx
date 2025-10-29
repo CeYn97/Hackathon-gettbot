@@ -12,14 +12,15 @@ interface PromoBlockProps {
 export default function PromoBlock({ onSupportClick }: PromoBlockProps) {
   const [selectedSection, setSelectedSection] = useState<string>("general");
   const [openItems, setOpenItems] = useState<Set<string>>(new Set());
-  const [isSectionDropdownOpen, setIsSectionDropdownOpen] = useState<boolean>(false);
+  const [isSectionDropdownOpen, setIsSectionDropdownOpen] =
+    useState<boolean>(false);
   const sectionDropdownRef = useRef<HTMLDivElement>(null);
   const { t } = useTranslation();
 
   const currentItems = getFAQItemsBySection(selectedSection);
 
   const toggleItem = (id: string) => {
-    setOpenItems(prev => {
+    setOpenItems((prev) => {
       const newSet = new Set(prev);
       if (newSet.has(id)) {
         newSet.delete(id);
@@ -32,23 +33,27 @@ export default function PromoBlock({ onSupportClick }: PromoBlockProps) {
 
   const sectionTitles: Record<string, string> = {
     general: "faq.dictionary.general.nav",
-    "getting-started": "faq.dictionary.getting-started.nav", 
+    "getting-started": "faq.dictionary.getting-started.nav",
     financial: "faq.dictionary.financial.nav",
     referral: "faq.dictionary.referral.nav",
     security: "faq.dictionary.security.nav",
-    technical: "faq.dictionary.technical.nav"
+    technical: "faq.dictionary.technical.nav",
   };
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (sectionDropdownRef.current && !sectionDropdownRef.current.contains(event.target as Node)) {
+      if (
+        sectionDropdownRef.current &&
+        !sectionDropdownRef.current.contains(event.target as Node)
+      ) {
         setIsSectionDropdownOpen(false);
       }
     };
 
     if (isSectionDropdownOpen) {
-      document.addEventListener('mousedown', handleClickOutside);
-      return () => document.removeEventListener('mousedown', handleClickOutside);
+      document.addEventListener("mousedown", handleClickOutside);
+      return () =>
+        document.removeEventListener("mousedown", handleClickOutside);
     }
   }, [isSectionDropdownOpen]);
 
@@ -68,8 +73,8 @@ export default function PromoBlock({ onSupportClick }: PromoBlockProps) {
                   onClick={() => setSelectedSection(sectionId)}
                   className={`flex justify-center items-center gap-1 px-4 py-[10px] rounded-[999px] transition-colors duration-200 whitespace-nowrap ${
                     selectedSection === sectionId
-                      ? 'bg-[#3FC7C8] text-[#FFFFFF]'
-                      : 'bg-[#F9F9F9] text-[#0C0B16] border border-[#DFDFDF] hover:bg-[#E9E9E9]'
+                      ? "bg-[#3FC7C8] text-[#FFFFFF]"
+                      : "bg-[#F9F9F9] text-[#0C0B16] border border-[#DFDFDF] hover:bg-[#E9E9E9]"
                   }`}
                 >
                   <span className="text-[16px] font-[500] leading-[1.25] text-center">
@@ -84,7 +89,7 @@ export default function PromoBlock({ onSupportClick }: PromoBlockProps) {
             <div className="flex flex-col gap-3">
               {currentItems.map((item) => {
                 const isOpen = openItems.has(item.id);
-                
+
                 return (
                   <div
                     key={item.id}
@@ -99,9 +104,11 @@ export default function PromoBlock({ onSupportClick }: PromoBlockProps) {
                       </span>
 
                       <div className="w-4 h-4 flex items-center justify-center">
-                        <div className={`transition-transform duration-300 ease-in-out ${
-                          isOpen ? 'rotate-180' : 'rotate-0'
-                        }`}>
+                        <div
+                          className={`transition-transform duration-300 ease-in-out ${
+                            isOpen ? "rotate-180" : "rotate-0"
+                          }`}
+                        >
                           <Image
                             src="/images/icon-2.svg"
                             alt="Arrow"
@@ -115,10 +122,12 @@ export default function PromoBlock({ onSupportClick }: PromoBlockProps) {
 
                     <div
                       className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                        isOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
+                        isOpen
+                          ? "max-h-[500px] opacity-100"
+                          : "max-h-0 opacity-0"
                       }`}
                     >
-                      <div className="px-8 py-6">
+                      <div className="px-8 pb-6">
                         <p className="text-[#0C0B16] text-[20px] font-[400] leading-[1.2] text-left">
                           {t(item.answer)}
                         </p>
@@ -161,9 +170,11 @@ export default function PromoBlock({ onSupportClick }: PromoBlockProps) {
               <span className="text-[#FFFFFF] text-[16px] font-[400] leading-[1.25] text-center">
                 {t(sectionTitles[selectedSection])}
               </span>
-              <div className={`transition-transform duration-200 ${
-                isSectionDropdownOpen ? 'rotate-180' : 'rotate-0'
-              }`}>
+              <div
+                className={`transition-transform duration-200 ${
+                  isSectionDropdownOpen ? "rotate-180" : "rotate-0"
+                }`}
+              >
                 <Image
                   src="/images/icon-2.svg"
                   alt="Arrow"
@@ -185,7 +196,9 @@ export default function PromoBlock({ onSupportClick }: PromoBlockProps) {
                         setIsSectionDropdownOpen(false);
                       }}
                       className={`w-full px-4 py-2 text-left text-[14px] font-[500] hover:bg-[#F8F9FA] transition-colors ${
-                        selectedSection === sectionId ? 'bg-[#F8F9FA] text-[#3FC7C8]' : 'text-[#0C0B16]'
+                        selectedSection === sectionId
+                          ? "bg-[#F8F9FA] text-[#3FC7C8]"
+                          : "text-[#0C0B16]"
                       }`}
                     >
                       {t(title)}
@@ -201,7 +214,7 @@ export default function PromoBlock({ onSupportClick }: PromoBlockProps) {
           <div className="flex flex-col gap-2">
             {currentItems.map((item) => {
               const isOpen = openItems.has(item.id);
-              
+
               return (
                 <div
                   key={item.id}
@@ -214,9 +227,11 @@ export default function PromoBlock({ onSupportClick }: PromoBlockProps) {
                     <span className="text-[#0C0B16] text-[14px] font-[500] leading-[1.29] text-left flex-1">
                       {t(item.question)}
                     </span>
-                    <div className={`transition-transform duration-300 ease-in-out ${
-                      isOpen ? 'rotate-180' : 'rotate-0'
-                    }`}>
+                    <div
+                      className={`transition-transform duration-300 ease-in-out ${
+                        isOpen ? "rotate-180" : "rotate-0"
+                      }`}
+                    >
                       <Image
                         src="/images/icon-2.svg"
                         alt="Arrow"
@@ -229,10 +244,10 @@ export default function PromoBlock({ onSupportClick }: PromoBlockProps) {
 
                   <div
                     className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                      isOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
+                      isOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
                     }`}
                   >
-                    <div className="px-4 py-4">
+                    <div className="px-4 pb-4">
                       <p className="text-[#0C0B16] text-[14px] font-[400] leading-[1.29] text-left">
                         {t(item.answer)}
                       </p>
