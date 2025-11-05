@@ -685,5 +685,9 @@
         }
       }
     }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "backButton": "Back to home"
   }
 }
