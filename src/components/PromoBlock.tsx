@@ -161,7 +161,7 @@ export default function PromoBlock({ onSupportClick }: PromoBlockProps) {
           {t("faq.promo.heading")}
         </h1>
 
-        <div className="flex flex-col w-full gap-6 p-5 bg-[rgba(255,255,255,0.52)] backdrop-blur-[64px] rounded-[12px] shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)]">
+        <div className="flex flex-col w-full gap-6 p-5 bg-[#FFFFFF] rounded-[12px] shadow-[0px_2px_8px_0px_rgba(15,15,15,0.12)]">
           <div className="relative" ref={sectionDropdownRef}>
             <button
               onClick={() => setIsSectionDropdownOpen(!isSectionDropdownOpen)}
