@@ -30,11 +30,36 @@ export default function Modal({
     };
 
     if (isOpen) {
+      const scrollY = window.scrollY;
+      document.body.style.overflow = 'hidden';
+      document.body.style.position = 'fixed';
+      document.body.style.top = `-${scrollY}px`;
+      document.body.style.width = '100%';
+      
       document.addEventListener("keydown", handleEscape);
+    } else {
+      const scrollY = document.body.style.top;
+      document.body.style.overflow = '';
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.width = '';
+      
+      if (scrollY) {
+        window.scrollTo(0, parseInt(scrollY.replace('-', ''), 10));
+      }
     }
 
     return () => {
       document.removeEventListener("keydown", handleEscape);
+      const scrollY = document.body.style.top;
+      document.body.style.overflow = '';
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.width = '';
+      
+      if (scrollY) {
+        window.scrollTo(0, parseInt(scrollY.replace('-', ''), 10));
+      }
     };
   }, [isOpen, onClose]);
 
@@ -50,8 +75,16 @@ export default function Modal({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-[9999] flex items-center justify-center pointer-events-none">
-      <div className="relative bg-white rounded-[24px] shadow-[0px_4px_24px_0px_rgba(15,15,15,0.12)] w-[842px] h-[675px] mx-4 overflow-hidden pointer-events-auto">
+    <div className="fixed inset-0 z-[9999] flex items-center justify-center">
+      <div 
+        className="fixed inset-0 bg-black/50"
+        onClick={onClose}
+      />
+      
+      <div 
+        className="relative bg-white rounded-[24px] shadow-[0px_4px_24px_0px_rgba(15,15,15,0.12)] w-[842px] h-[675px] mx-4 overflow-hidden z-10"
+        onClick={(e) => e.stopPropagation()}
+      >
         <div className="flex items-center justify-between px-8 pt-8 pb-5">
           <div className="flex flex-col gap-0">
             <h2 className="text-[#0C0B16] text-[16px] font-[600] leading-[1.25] text-center">
