@@ -1,8 +1,12 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
 
 export default function Exchanges() {
   const { t } = useTranslation();
+  const [isBinanceHovered, setIsBinanceHovered] = useState(false);
 
   return (
     <>
@@ -12,13 +16,17 @@ export default function Exchanges() {
         </h2>
 
         <div className="flex justify-between items-end w-full gap-10">
-          <div className="flex flex-col items-center">
+          <div 
+            className="flex flex-col items-center cursor-pointer"
+            onMouseEnter={() => setIsBinanceHovered(true)}
+            onMouseLeave={() => setIsBinanceHovered(false)}
+          >
             <Image
-              src="/images/binance-logo.svg"
+              src={isBinanceHovered ? "/images/exchange2.svg" : "/images/binance-logo.svg"}
               alt="Binance"
               width={200}
               height={40}
-              className="w-[200px] h-[40px]"
+              className="w-[200px] h-[40px] transition-opacity duration-200"
             />
           </div>
 
@@ -124,13 +132,17 @@ export default function Exchanges() {
         </h2>
 
         <div className="flex items-end gap-6 overflow-x-auto scrollbar-hide pb-2">
-          <div className="flex flex-col items-center flex-shrink-0">
+          <div 
+            className="flex flex-col items-center flex-shrink-0 cursor-pointer"
+            onMouseEnter={() => setIsBinanceHovered(true)}
+            onMouseLeave={() => setIsBinanceHovered(false)}
+          >
             <Image
-              src="/images/binance-logo.svg"
+              src={isBinanceHovered ? "/images/exchange2.svg" : "/images/binance-logo.svg"}
               alt="Binance"
               width={120}
               height={24}
-              className="w-[120px] h-[24px]"
+              className="w-[120px] h-[24px] transition-opacity duration-200"
             />
           </div>
 
