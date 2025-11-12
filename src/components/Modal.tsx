@@ -22,6 +22,16 @@ export default function Modal({
   const [scrollProgress, setScrollProgress] = useState(0);
   const { t } = useTranslation();
 
+  const getLastUpdated = () => {
+    if (!lastUpdatedKey) {
+      return t("modal.lastUpdatedDefault");
+    }
+    if (lastUpdatedKey.startsWith("privacyModal.") || lastUpdatedKey.startsWith("cookiesModal.")) {
+      return t(lastUpdatedKey, { lng: 'en' });
+    }
+    return t(lastUpdatedKey);
+  };
+
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
@@ -87,12 +97,13 @@ export default function Modal({
       >
         <div className="flex items-center justify-between px-8 pt-8 pb-5">
           <div className="flex flex-col gap-0">
-            <h2 className="text-[#0C0B16] text-[16px] font-[600] leading-[1.25] text-center">
+            <h2 className="text-[#0C0B16] text-[16px] font-[600] leading-[1.25] text-left">
               {title}
             </h2>
-            <p className="text-[#0C0B16] text-[16px] font-[400] leading-[1.25] text-left">
-              {t(lastUpdatedKey ?? "modal.lastUpdatedDefault")}
-            </p>
+            <p 
+              className="text-[#0C0B16] text-[16px] font-[400] leading-[1.25] text-left"
+              dangerouslySetInnerHTML={{ __html: getLastUpdated() }}
+            />
           </div>
           <button
             onClick={onClose}

@@ -21,6 +21,7 @@ export default function RootLayout({
           as="font"
           type="font/ttf"
           crossOrigin="anonymous"
+          fetchPriority="high"
         />
         <link
           rel="preload"

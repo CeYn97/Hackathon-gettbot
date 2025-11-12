@@ -589,6 +589,184 @@
     "paragraph3": "Communication between the Company and the User regarding the Service is handled via email to admin@gettbot.io or through other channels specified by the Company.",
     "lastUpdated": "Last updated: 31 July 2025"
   },
+  "privacyModal": {
+    "title": "PRIVACY POLICY",
+    "lastUpdated": "Last updated: 31.07.2025",
+    "intro": "Please carefully read this Privacy Policy («<strong>Policy</strong>«), which governs how ALGORITHMIC SOLUTIONS LTD., a company incorporated under the laws of Seychelles, with its registered office at F2-2A, Oceanic House, Providence Estate, Mahé, Seychelles («<strong>Company</strong>«, «<strong>we</strong>«), collects, uses and discloses information, when you access or use Company`s Service as such term is described in Terms of Use, or when you otherwise interact with us.",
+    "section1": {
+      "title": "1. APPLICABILITY AND ACCEPTANCE OF POLICY",
+      "content": "1.1. This <strong>Policy</strong> defines the Personal Data, explains how Personal Data is collected, used, processed, and disclosed.\n\n1.2. This <strong>Policy</strong> shall come into effect at the moment you first access the Service. By accessing the Service, clicking a checkmark at the \"I agree with the Privacy Policy\" button, you unconditionally accept and adhere to provisions of this <strong>Policy</strong> without any exemptions, limitations and/or exclusions.\n\n1.3. In the event you disagree with any provision of this <strong>Policy</strong> or would not like to provide your consent for processing of your Personal Data, you shall cease using the Service."
+    },
+    "section2": {
+      "title": "2. INFORMATION ABOUT THE DATA COMPANY",
+      "content": "2.1. The data controller of this Service is ALGORITHMIC SOLUTIONS LTD., a company incorporated under the laws of Seychelles, with its registered office at F2-2A, Oceanic House, Providence Estate, Mahé, Seychelles. Contact details: admin@gettbot.io."
+    },
+    "section3": {
+      "title": "3. LEGAL GROUNDS FOR PERSONAL DATA PROCESSING",
+      "content": "3.1. We process your Personal Data on the basis that it is:\n\n3.1.1. <strong>necessary for the performance of a contract</strong>, therefore, where we have a contract with you, we will process your Personal Data in order to fulfill that contract (in particular, to provide access to the Service and render Services available through it);\n\n3.1.2. <strong>authorized by your Consent</strong>, which you give us as it is set out in section 4 hereof;\n\n3.1.3. <strong>necessary for compliance with our legal obligation</strong>, in particular, when we are obliged to respond to a court order or a regulator;\n\n3.1.4. <strong>necessary for performance our legitimate interests</strong>;\n\n3.1.5. <strong>permitted by applicable legislation</strong>.\n\n3.2. We process the Personal Data for a number of legitimate interests, including to provide and improve the Service, administer our relationship with you and our business, for marketing, and in order to exercise our rights and responsibilities as specified in section 6 of the Agreement."
+    },
+    "section4": {
+      "title": "4. CONSENT TO PERSONAL DATA PROCESSING",
+      "content": "4.1. For all Users, including users who are EU persons, to process your Personal Data we need to receive your consent, as it is prescribed by GDPR or other applicable law, we will process your Personal Data in the case we have received from you a freely given, specific, informed and unambiguous indication of your wishes by which you signify agreement to the processing of your Personal Data («Consent«).\n\n4.2. <strong>By using the Service, clicking a checkmark at the \"I agree with the Privacy Policy\" button,  you directly and voluntarily accept the provisions of this Policy without any exceptions, restrictions and/or exclusions, and agree with the terms of processing of personal information specified therein</strong>.\n\n4.3. Your Consent covers all processing activities with your Personal Data carried out for the same purpose or purposes. When the Processing has multiple purposes, your Consent should be deemed given for all of them, unless otherwise provided by this Policy.\n\n4.4. You have the right to withdraw your Consent at any time. You can submit such a request by  admin@gettbot.io.\n\n4.5. Your withdrawal of Consent shall not affect the lawfulness of your Personal Data processing based on Consent before its withdrawal.\n\n4.6. Except as required or enabled by law we will not use or disclose your Personal Data for any purpose for which you refuse Consent or later withdraw your Consent. If you withdraw Consent, you agree that in spite of this withdrawal, we may continue to use those Personal Data previously provided to us to the extent that we are contractually or otherwise legally obliged to do so and to the extent necessary to enforce any contractual obligation you may have towards the Company or in any other way permitted by law."
+    },
+    "section5": {
+      "title": "5. COLLECTION OF PERSONAL DATA",
+      "content": "5.1. <strong>General Provisions</strong>\n\n5.1.1. The type of Personal Data we collect depends on how you are interacting with us. In many cases, you can choose whether or not to provide us with Personal Data, but if you choose not to, you may not get full functionality of the Service. When you visit the Service, you may provide us with the following types of Personal Data: (i)Personal Data that you voluntarily disclose that is collected on an individual basis; and (ii) Personal Data collected automatically when you use the Service.\n\n5.2. Personal Data You provide to Us\n\n5.2.1. In order to fulfill our obligations on provision of an access to Service for you and applicable terms of use, we are entitled to ask you to provide us with your Personal Data, including (but not limited):\n\n● Email address;\n\n● Cryptocurrency exchange User ID that we receive upon connecting your cryptocurrency exchange account with our Service.\n\nPersonal Data hereof is collected only when voluntarily offered, and solely for purposes that are clearly identified on the Service or in this Policy.\n\n5.2.2. The Company may collect the Personal Data from you in a variety of ways and circumstances, including, but not limited to, registration at the Service, subscription to a newsletter, filling out a form. The Company shall be entitled to combine Personal Data collected in the course of your interaction with different sections of the Service with any other relevant available information.\n\n5.2.3. The Company may collect Personal Data from third parties, including, but not limited to, data obtained from exchanges  connected to the Service.\n\n5.3. <strong>Personal Data We Collect Automatically</strong>\n\n5.3.1. Personal Data collected by or transmitted to the Company in the course of accessing, interacting and operating of the Service may include, without limitation, the following Personal Data:\n\n● device information, which may include (but is not limited to) information about the computer or mobile device you use to access the Service, including the hardware model, operating system and version, the web browser you use, and other device identifiers;\n\n● server log information, which may include (but is not limited to) your login details, the date and time of visits, the pages viewed, your IP address, time spent at the Service and the websites you visit just before and just after the Service;\n\n● information collected by cookies and other tracking technologies. We and our service providers use various technologies to collect information when you interact with the Service, including cookies and web beacons. 'Cookies' are small data files that are stored on your device when you visit a Service which enable us to collect information about your device identifiers, IP address, web browsers used to access to the Service, pages or features viewed, time spent on pages, mobile app performance and links clicked. Web beacons are graphic images that are placed on a website or in an email that is used to monitor the behavior of the user visiting the website or sending the email. They are often used in combination with cookies."
+    },
+    "section6": {
+      "title": "6. USE OF PERSONAL DATA",
+      "content": "6.1. We use Personal Data for the following purposes.\n\n6.1.1. to provide access to the Service;\n\n6.1.2. to handle your orders and requests, including requests for technical support and assistance;\n\n6.1.3. to receive information on the status of payment for Company Services;\n\n6.1.4. to detect, investigate, and prevent illegal activities or conduct that may violate the terms of use of the Service and this Privacy Policy;\n\n6.1.5. personalize your experience with our Service;\n\n6.1.6. contact you in relation to, and conduct, surveys or polls you choose to take part in and to analyse the data collected for market research purposes;\n\n6.1.7. conduct internal research and development and to improve, test and enhance the features and functions of our Service;\n\n6.1.8. provide you with marketing materials as permitted by law;\n\n6.1.9. meet our internal and external audit requirements, including our information security obligations."
+    },
+    "section7": {
+      "title": "7. DISCLOSURE OF PERSONAL DATA",
+      "content": "7.1. The Company treats Personal Data as confidential and may not pass on or use any such data without valid legal grounds.\n\n7.2. We will only disclose your Personal Data in the following circumstances:\n\n7.2.1. with your Consent or at your instruction;\n\n7.2.2. with companies under common control or ownership with us or our offices internationally;\n\n7.2.3. for everyday business purposes, such as to process transactions, maintain accounts, respond to court orders and legal investigations;\n\n7.2.4. in connection with a merger or sale of our company assets, or if we do a financing or are involved in an acquisition, or any other situation where Personal Data may be disclosed or transferred as one of our business assets;\n\n7.2.5. if we believe your actions are inconsistent with our terms of use of the Service or applicable legislation, or to protect the rights, property and safety of any assets of the Company or third parties.\n\n7.3. The Company may without limitations share aggregated or de-identified information, which cannot reasonably be used to identify you.\n\n7.4. We do not disclose your Personal Information to Users who have sent you a referral link. We can only take into account the weight and amount of your subscriptions when showing the User the number of Referrals attracted by Users and the total amount of subscriptions of such Referrals.\n\n7.5. You can at any time report the misuse of your Personal Data and/or ask us to restrict access to your personal data in accordance with this Policy and applicable law."
+    },
+    "section8": {
+      "title": "8. TRANSMISSION OF PERSONAL DATA",
+      "content": "8.1. The transmission of Personal Data or any other information (including communications by email) over the Internet or other publicly accessible networks is not one hundred percent secure. The Company is not liable for the security of any Personal Data or any other information you are transmitting over the Internet, or third-party content.\n\n8.2. Information about you may be transferred to, and processed in countries other than the country in which you are a resident. We have taken appropriate safeguards to require that your information will remain protected in accordance with this Privacy Policy.\n\n8.3. Personal Data of EU Persons transmitted to a recipient outside the European Economic Area may be processed by a staff member operating outside the European Economic Area (EEA) who works for us or for one of digital Content developers or copyright owners. Such staff may be engaged in amongst other things, the fulfilment of your order, the processing of your payment details and the provision of support Services. By submitting your personal data, you agree to this transfer, storing or processing. We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy."
+    },
+    "section9": {
+      "title": "9. PROTECTION OF PERSONAL DATA. SECURITY MEASURES",
+      "content": "9.1. We take appropriate security, administrative and technical measures to protect any Personal Data you provide regarding the collection, storage and processing of Personal Data, as well as security measures to protect your Personal Data against unauthorized access, modification, disclosure or destruction.\n\n9.2. Personal Data is safeguarded from unauthorised access and unlawful processing or disclosure, as well as accidental loss, modification or destruction, through state-of-the-art technical and organisational measures. These are adjusted and updated continuously in tandem with technical developments and organizational changes. Additionally, Personal Data protection audits and other controls are carried out on a regular basis. However, no computer security system is entirely foolproof, and the Internet is not a secure method of transmitting information. As a result, we do not assume any responsibility for the Personal Data you submit to or receive from us through the Internet, or for any unauthorized access or use of that information, and we cannot and do not guarantee that information communicated by you to us or sent to you by us will be received, or that it will not be altered before or after its transmission to us. You agree to not hold the Company liable for any loss or damage of any sort incurred as a result of any misappropriation, interception, modification, deletion, destruction or use of information provided through the Service."
+    },
+    "section10": {
+      "title": "10. RETENTION OF INFORMATION",
+      "content": "10.1. In accordance with applicable laws and as needed to fulfill our obligations, we may hold your Personal Data. This requirement is conditioned by a need to comply with legal obligations and resolve possible disputes.\n\n10.2. Your Personal Data is stored on a server that we rent in a special third-party cloud infrastructure, unless otherwise provided by this Policy. We do not transfer your Personal Data to such third-party cloud infrastructure.\n\n10.3. The Company may retain your Personal Data until your consent is withdrawn or the Terms of Use are terminated. After the Terms of Use are terminated, the data may be stored for a period of time to comply with legal and regulatory requirements, resolve disputes and prevent money laundering, fraud and other illegal activities."
+    },
+    "section11": {
+      "title": "11. YOUR RIGHTS IN RELATION TO PERSONAL DATA",
+      "content": "11.1. The Company is committed to making sure you can exercise your respective rights effectively and free of charge. The Company will ensure each your request related to your Personal Data be reviewed in a timely fashion.\n\n11.2. You have the following rights relating to your Personal Data in accordance with any applicable laws, including GDPR:\n\n11.2.1. <strong>Right to access</strong>. You can request access to your Personal Data and obtain a copy of such Personal Data in a format acceptable to you (e.g. PDF, DOC, DOCX, etc.). You can submit such a request by contacting admin@gettbot.io. After your request is received, our privacy team reviews the form and conducts the requestor's identity verification, without undue delay. Upon successful verification, you are provided with a copy of your Personal Data.\n\n11.2.2. <strong>Right to data portability</strong>. You have the right to receive your Personal Data, which you have provided to us, in a structured, commonly used and machine-readable format and have the right to transmit those data to another Service provider (controller) without hindrance from us.\n\n11.2.3. <strong>Right to erasure («Right to be forgotten») and right to rectification</strong>. You are entitled to request erasure or rectification of your Personal Data by contacting admin@gettbot.io. We will handle requests for Personal Data to be rectified or deleted, unless there is a legal requirement that prohibits such requests to be fulfilled. When a request is fulfilled, you will be informed that your Personal Data is changed or erased and is not-longer collected, however, to fulfil our legal requirements the Company will store information about each requestor for the purposes of providing evidence that a request has been fulfilled.\n\n11.2.4. <strong>Right to object</strong>. At all times, you are entitled to object to Processing of your Personal Data. <strong>Right to object</strong> can be exercised by contacting admin@gettbot.io.  Upon receipt of the request, the Company ceases the Processing, unless there is a legal or statutory ground for such Processing.\n\n11.2.5. <strong>Right to be informed</strong>. If you are inquiring about Processing activities conducted with respect to your Personal Data, the Company, without undue delay, will provide information about: <strong>(i)</strong>purposes of Processing; <strong>(ii)</strong> categories and types of Personal Data; <strong>(iii)</strong> the recipients or categories of recipients to whom the personal data have been or will be disclosed to, in particular recipients in third party countries or international organizations (iii) retention period; <strong>(v)</strong> source of the relevant Personal Data; <strong>(vi)</strong> privacy rights and information on data portability; <strong>(vii)</strong>where the personal data are not collected from the data subject, any available information as to their source; <strong>(viii)</strong>the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) of the GDPR and, at least in those cases, meaningful information about the logic involved, as well as the significance and envisaged consequences of such processing for the data subject; <strong>(ix)</strong> information as to whether personal data are transferred to a third country or to an international organization. Where this is the case, the data in subject to, shall have the right to be informed of the appropriate safeguards relating to the transfer. However, all information about the categories of Personal Data and Processing operational conducted by the Company is available in this Policy.\n\n11.2.6. <strong>Right to lodge a complaint with a supervisory authority</strong>. Supervisory authority means an independent public authority, for example, which is established by an EU member state pursuant to Article 51 GDPR or any other applicable law."
+    },
+    "section12": {
+      "title": "12. CHILDREN'S PRIVACY",
+      "content": "12.1. The minimum age to use the Service is 18 years of age. The Company will not knowingly collect Personal Data from minors.\n\n12.2. If minors have provided their personal data, when using the Service, without parental consent, including data that is provided purposefully and data that is collected automatically, parents of minors may submit a request to the Company's email to stop processing the personal data of such minors."
+    },
+    "section13": {
+      "title": "13. ALTERATIONS TO POLICY",
+      "content": "13.1. We have the right, at our discretion, to update this Policy at any time. We recommend that you frequently check this Policy to find any changes and stay informed about how we help protect the Personal Data.\n\n13.2. By using the Service, you will acknowledge and agree that it is your responsibility to periodically review this Policy and be aware of the changes.\n\n13.3. The subsequent use of the Service after changes to this Policy will also be considered as your acceptance of these changes.\n\n13.4. This Policy may from time to time be translated into other languages. To the extent that any discrepancy may exist between the English version of this Policy and its version in another language, the English version prevails."
+    },
+    "section14": {
+      "title": "14. DATA PROTECTION OFFICER",
+      "content": "14.1. The Company appoints an expert on data privacy who works independently to ensure that the Company is adhering to the policies and procedures set forth in the GDPR (data protection officer). Data protection officer assists the Company to monitor internal compliance, inform and advise on data protection obligations, provide advice regarding data protection impact assessments (DPIAs) and act as a contact point for data subjects and the supervisory authorities."
+    },
+    "section15": {
+      "title": "15. FEEDBACK",
+      "content": "15.1. We welcome your questions and suggestions with respect to the implementation or amendment of this Policy. Please use this feedback for communicating with us by contacting  admin@gettbot.io."
+    }
+  },
+  "cookiesModal": {
+    "title": "COOKIE NOTICE",
+    "lastUpdated": "<strong>DATE</strong>: 24.06.2025",
+    "intro": "This Cookie Notice (this \"Notice\") is part of the Privacy Policy.\n\nThe Service (as that term is defined in the Terms of Use) uses cookies (as that term is defined in the Privacy Policy) and web beacons to provide services that best meet your needs and to accumulate statistical information to analyze and improve our services and the Service.\n\nBy using the Service, you consent to the use of cookies and other similar technologies in accordance with this Notice. If you do not consent to us ('Company' as that term is defined in the Terms of Use) using cookies, you must:\n\nDisable the use of cookies in your browser settings (for details see Section 2 'Managing Cookies'); and/or\nStop using the Service.",
+    "section1": {
+      "title": "1. TYPES OF COOKIES THAT CAN BE USED IN THE SERVICE",
+      "intro": "We may use the following types of cookies on the Service for the specified purposes:",
+      "tableHeader": {
+        "type": "<strong>Type of cookies</strong>",
+        "purpose": "<strong>Purpose</strong>"
+      },
+      "tableRows": [
+        {
+          "type": "<strong>Strictly necessary</strong>",
+          "purpose": "Necessary for the normal operation of the Service, navigation through the resource and use of its functionality. Disabling this type of cookies may make some features of the Service unavailable to you."
+        },
+        {
+          "type": "<strong>Functional</strong>",
+          "purpose": "Designed to remember your individual preferences and personalise the content of the Service."
+        },
+        {
+          "type": "<strong>Advertising</strong>",
+          "purpose": "May be used for the purpose of delivering targeted advertising and evaluating its effectiveness. We may share these files with relevant advertising systems and sites where our adverts are placed."
+        },
+        {
+          "type": "<strong>Analytical</strong>",
+          "purpose": "Necessary to analyse the use of the Service by visitors and to improve the Service."
+        }
+      ],
+      "content": "<strong>THE CURRENT LIST OF COOKIES COLLECTED CAN BE FOUND IN ANNEX A.</strong>\n\nIn order to collect analytical data and/or promote our services, identify potential customers, we may use third party services to analyse cookies.\n\nThis data may not be considered personal data under applicable law as it does not identify you without other information. The E-mail address received may be used solely as a means of contacting you in order to determine your interest in our services."
+    },
+    "section2": {
+      "title": "2. MANAGEMENT OF COOKIES",
+      "content": "You can disable the use of cookies on our Service at any time using the appropriate settings of the browser you are using and thus permanently disable the use of cookies. For example, most browsers allow you to refuse to accept cookies and to delete cookies. The way in which you can disable cookies depends on the browser you are using. However, you can get the latest information about blocking and deleting cookies from these links:\n\nGoogle Chrome\nMozilla Firefox\nOpera\nMicrosoft Internet Explorer\nSafari Desktop, Safari Mobile\nMicrosoft Edge\n\nWe consider your 'Do Not Track' request and do not track your activities, use cookies or contextual advertising when your browser is set to 'Do Not Track'. You can limit the collection of information by disabling cookies in your browser. You can also change your browser settings to require your permission each time the service attempts to set a cookie. However, our Service (and many other websites) rely on cookies to enable certain features of the Service. If you choose to disable cookies, some features available on the Service may not work properly."
+    },
+    "section3": {
+      "title": "3. WEBSITES AND LINKS NOT RELATED TO THE COMPANY",
+      "content": "The Service may contain links to services not related to the Company. We are not responsible for the actions of third-party sites. When you access other services through a link on our Service, the owners of those services may use cookies in accordance with their cookie policies, which may differ from those presented herein. You should read their privacy and cookies policies carefully before providing them with any personal information."
+    },
+    "section4": {
+      "title": "4. WARNING ABOUT AUTOMATIC COOKIE FUNCTIONALITY",
+      "content": "Browsers allow you to save passwords and other login identifiers, so you may not be able to re-authorise when you go to the Service. The Company strongly recommends that you do not use this feature to prevent unauthorised use of your data."
+    },
+    "section5": {
+      "title": "5. FINAL PROVISIONS",
+      "content": "You can receive any clarification on any questions regarding cookies on the Service by contacting us by email: admin@gettbot.io\n\nThe most current version of this Privacy Policy is freely available on the Service. In our sole discretion, we may change this Notice from time to time. Your use of the Service after the changes have been made constitutes your acceptance of the revised Notice.",
+      "annexTitle": "<strong>ANNEX A</strong>",
+      "annexSubtitle": "<strong>List of cookies that the Service can use:</strong>",
+      "annexTableHeader": {
+        "title": "<strong>Title</strong>",
+        "origins": "<strong>Origins</strong>",
+        "appointment": "<strong>Appointment</strong>",
+        "storageTime": "<strong>Storage time</strong>"
+      },
+      "annexCategories": [
+        {
+          "name": "<strong>Strictly necessary</strong>",
+          "cookies": [
+            {
+              "title": "__cf_bm",
+              "origins": "gettbot.io",
+              "appointment": "Ensuring security and preventing spam",
+              "storageTime": "30 minutes"
+            },
+            {
+              "title": "session_id",
+              "origins": "app.gettbot.io",
+              "appointment": "User Authorization",
+              "storageTime": "session"
+            }
+          ]
+        },
+        {
+          "name": "<strong>Functional</strong>",
+          "cookies": [
+            {
+              "title": "lang",
+              "origins": "gettbot.io",
+              "appointment": "Saves the selected interface language",
+              "storageTime": "1 year"
+            },
+            {
+              "title": "cookieConsent",
+              "origins": "gettbot.io",
+              "appointment": "Stores the user's consent to the use of cookies",
+              "storageTime": "1 year"
+            }
+          ]
+        },
+        {
+          "name": "<strong>Advertising</strong>",
+          "cookies": []
+        },
+        {
+          "name": "<strong>Analytical</strong>",
+          "cookies": [
+            {
+              "title": "_ga",
+              "origins": "Google Analytics",
+              "appointment": "Analysis of user behavior on the site",
+              "storageTime": "2 years"
+            },
+            {
+              "title": "_gid",
+              "origins": "Google Analytics",
+              "appointment": "User session tracking",
+              "storageTime": "24 hours"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "modal": {
     "lastUpdatedDefault": "Last updated: 31 July 2025"
   },

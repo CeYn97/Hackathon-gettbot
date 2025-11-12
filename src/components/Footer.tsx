@@ -2,16 +2,47 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { useTranslation } from "react-i18next";
 import TermsModal from "./TermsModal";
+import PrivacyModal from "./PrivacyModal";
+import CookiesModal from "./CookiesModal";
 
 export default function Footer() {
   const [isTermsModalOpen, setIsTermsModalOpen] = useState(false);
+  const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
+  const [isCookiesModalOpen, setIsCookiesModalOpen] = useState(false);
   const { t } = useTranslation();
+  const router = useRouter();
 
   const handleTermsClick = (e: React.MouseEvent) => {
     e.preventDefault();
     setIsTermsModalOpen(true);
+  };
+
+  const handlePrivacyClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setIsPrivacyModalOpen(true);
+  };
+
+  const handleCookiesClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setIsCookiesModalOpen(true);
+  };
+
+  const handleTermsClickMobile = (e: React.MouseEvent) => {
+    e.preventDefault();
+    router.push("/terms");
+  };
+
+  const handlePrivacyClickMobile = (e: React.MouseEvent) => {
+    e.preventDefault();
+    router.push("/privacy");
+  };
+
+  const handleCookiesClickMobile = (e: React.MouseEvent) => {
+    e.preventDefault();
+    router.push("/cookies");
   };
 
   return (
@@ -98,18 +129,18 @@ export default function Footer() {
           </div>
 
           <div className="flex justify-between items-center w-[1272px]">
-            <a
-              href="/cookies"
-              className="text-[#0C0B16] text-[16px] font-[500] leading-[1.25] text-left hover:underline hover:underline-offset-4 transition-all duration-200"
+            <button
+              onClick={handleCookiesClick}
+              className="text-[#0C0B16] text-[16px] font-[500] leading-[1.25] text-left hover:underline hover:underline-offset-4 transition-all duration-200 cursor-pointer"
             >
               {t("footer.links.cookies")}
-            </a>
-            <a
-              href="/privacy"
-              className="text-[#0C0B16] text-[16px] font-[500] leading-[1.25] tracking-[-0.02em] text-center hover:underline hover:underline-offset-4 transition-all duration-200"
+            </button>
+            <button
+              onClick={handlePrivacyClick}
+              className="text-[#0C0B16] text-[16px] font-[500] leading-[1.25] tracking-[-0.02em] text-center hover:underline hover:underline-offset-4 transition-all duration-200 cursor-pointer"
             >
               {t("footer.links.privacy")}
-            </a>
+            </button>
             <button
               onClick={handleTermsClick}
               className="text-[#0C0B16] text-[16px] font-[500] leading-[1.25] tracking-[-0.02em] text-right hover:underline hover:underline-offset-4 transition-all duration-200 cursor-pointer"
@@ -122,6 +153,14 @@ export default function Footer() {
         <TermsModal
           isOpen={isTermsModalOpen}
           onClose={() => setIsTermsModalOpen(false)}
+        />
+        <PrivacyModal
+          isOpen={isPrivacyModalOpen}
+          onClose={() => setIsPrivacyModalOpen(false)}
+        />
+        <CookiesModal
+          isOpen={isCookiesModalOpen}
+          onClose={() => setIsCookiesModalOpen(false)}
         />
       </footer>
 
@@ -197,31 +236,26 @@ export default function Footer() {
           </div>
 
           <div className="flex justify-center items-center flex-wrap gap-3">
-            <a
-              href="/cookies"
-              className="text-[#0C0B16] text-[12px] font-[500] leading-[1.17] text-left hover:underline hover:underline-offset-4 transition-all duration-200"
+            <button
+              onClick={handleCookiesClickMobile}
+              className="text-[#0C0B16] text-[12px] font-[500] leading-[1.17] text-left hover:underline hover:underline-offset-4 transition-all duration-200 cursor-pointer"
             >
               {t("footer.links.cookies")}
-            </a>
-            <a
-              href="/privacy"
-              className="text-[#0C0B16] text-[12px] font-[500] leading-[1.17] text-left hover:underline hover:underline-offset-4 transition-all duration-200"
+            </button>
+            <button
+              onClick={handlePrivacyClickMobile}
+              className="text-[#0C0B16] text-[12px] font-[500] leading-[1.17] text-left hover:underline hover:underline-offset-4 transition-all duration-200 cursor-pointer"
             >
               {t("footer.links.privacy")}
-            </a>
+            </button>
             <button
-              onClick={handleTermsClick}
+              onClick={handleTermsClickMobile}
               className="text-[#0C0B16] text-[12px] font-[500] leading-[1.17] text-left hover:underline hover:underline-offset-4 transition-all duration-200 cursor-pointer"
             >
               {t("footer.links.terms")}
             </button>
           </div>
         </div>
-
-        <TermsModal
-          isOpen={isTermsModalOpen}
-          onClose={() => setIsTermsModalOpen(false)}
-        />
       </footer>
     </>
   );
