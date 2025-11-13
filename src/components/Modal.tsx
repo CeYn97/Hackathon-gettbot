@@ -127,21 +127,22 @@ export default function Modal({
           </button>
         </div>
 
-        <div
-          ref={scrollRef}
-          className="px-8 pb-8 overflow-y-auto h-[calc(675px-120px)] relative scrollbar-hide"
-          onScroll={handleScroll}
-        >
-          <div className="absolute right-0 top-0 w-0 h-[516px] border-r-[6px] border-[#AAB0C0] opacity-50"></div>
+        <div className="relative h-[calc(675px-120px)]">
+          <div className="absolute right-0 top-0 w-0 h-full border-r-[6px] border-[#AAB0C0] opacity-50 z-10 pointer-events-none"></div>
           <div
-            className="absolute right-0 w-0 border-r-[6px] border-[#3FC7C8]"
+            className="absolute right-0 w-0 border-r-[6px] border-[#3FC7C8] z-10 pointer-events-none"
             style={{
-              top: `${(scrollProgress / 100) * (516 - 80)}px`,
-              height: "80px",
+              top: `${(scrollProgress / 100) * 85.59}%`,
+              height: "14.41%",
             }}
           ></div>
-
-          {children}
+          <div
+            ref={scrollRef}
+            className="px-8 pb-8 overflow-y-auto h-full scrollbar-hide"
+            onScroll={handleScroll}
+          >
+            {children}
+          </div>
         </div>
       </div>
     </div>
