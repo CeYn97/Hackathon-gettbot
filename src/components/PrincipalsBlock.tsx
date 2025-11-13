@@ -88,13 +88,13 @@ export default function PrincipalsBlock() {
                   </p>
                 </div>
 
-                <div className="w-full h-[180px] rounded-[16px] overflow-hidden">
+                <div className="w-full aspect-[350/180] min-h-[180px] rounded-[16px] overflow-hidden">
                   <Image
                     src={card.image}
                     alt={t(card.altKey)}
                     width={400}
                     height={180}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
               </div>

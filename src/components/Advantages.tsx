@@ -146,18 +146,14 @@ export default function Advantages({
               {bigCard.imageRef && bigCard.imageWidth && bigCard.imageHeight && (
                 <div className="flex justify-center w-full">
                   <div 
-                    className="w-[288px] h-[332px] rounded-[16px] border border-[#E2E2E2] border-[1px] overflow-hidden"
-                    style={{
-                      width: 288,
-                      height: 332
-                    }}
+                    className="w-full max-w-[288px] aspect-[288/332] min-h-[332px] rounded-[16px] border border-[#E2E2E2] border-[1px] overflow-hidden"
                   >
                     <Image
                       src="/images/advantages-img-bigCars-mobile.png"
                       alt={bigCard.imageAlt || ""}
                       width={288}
                       height={332}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     />
                   </div>
                 </div>
@@ -199,13 +195,13 @@ export default function Advantages({
               {smallCards.map((card) => (
                 <div key={card.id} className="flex flex-col gap-6 p-4 bg-[rgba(255,255,255,0.52)] backdrop-blur-[64px] rounded-[24px] shadow-[0px_1.62px_9.72px_rgba(15,15,15,0.12)]">
                   {card.imageRef && (
-                    <div className="w-full h-[112px] rounded-[24px] overflow-hidden">
+                    <div className="w-full aspect-[350/112] min-h-[112px] rounded-[24px] overflow-hidden">
                       <Image
                         src={`/images/${card.imageRef}`}
                         alt={card.imageAlt || ""}
                         width={400}
                         height={112}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                       />
                     </div>
                   )}
